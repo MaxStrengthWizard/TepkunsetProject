@@ -5,8 +5,13 @@
         <node id="root">
             <children>
                 <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Aasimar Light"/>
+                    <attribute id="Spells" type="LSString" value="Target_Light"/>
+                    <attribute id="UUID" type="guid" value="857eb32b-75d3-40f5-89cb-220172cee426"/>
+                </node>
+                <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Aasimar_1"/>
-                    <attribute id="Spells" type="LSString" value="Target_Light;Target_Aasimar_HealingHands"/>
+                    <attribute id="Spells" type="LSString" value="Target_Aasimar_HealingHands"/>
                     <attribute id="UUID" type="guid" value="6037a7f0-8270-4567-9e3e-9c9dc933c183"/>
                 </node>
                 <node id="SpellList">

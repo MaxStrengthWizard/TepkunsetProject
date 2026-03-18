@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="LevelMapValues">
+        <node id="root">
+            <children>
+                <node id="LevelMapSeries">
+                    <attribute id="Level1" type="LSString" value="2d4"/>
+                    <attribute id="Level5" type="LSString" value="3d4"/>
+                    <attribute id="Level9" type="LSString" value="4d4"/>
+                    <attribute id="Level13" type="LSString" value="5d4"/>
+                    <attribute id="Level17" type="LSString" value="6d4"/>
+                    <attribute id="Name" type="FixedString" value="AasimarHealingBonus"/>
+                    <attribute id="UUID" type="guid" value="cbe5a257-f321-42b1-881d-1f780e68a5de"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

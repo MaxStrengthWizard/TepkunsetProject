@@ -1,3 +1,11 @@
+new entry "CelestialResistance"
+type "PassiveData"
+data "DisplayName" "hf4ec8b07gbb48g860ag940cg471cbb0c435a;1"
+data "Description" "h163a49eegcf6bgc3f9g2e3egeb269dc99438;1"
+data "Icon" "PassiveFeature_DivineAllegiance"
+data "Properties" "ForceShowInCC;Highlighted"
+data "Boosts" "Resistance(Necrotic,Resistant);Resistance(Radiant,Resistant)"
+
 new entry "CelestialRevelation"
 type "PassiveData"
 data "DisplayName" "h8e9f4789gbb1fg2c06g1c69g8e63f44f8e59;1"
@@ -6,12 +14,4 @@ data "DescriptionParams" "DealDamage(ProficiencyBonus,Radiant);DealDamage(Profic
 data "Icon" "Aasimar_Revelation"
 data "Properties" "ForceShowInCC;Highlighted"
 data "Boosts" "ActionResource(Interrupt_Revelation,1,0)"
-
-new entry "CelestialResistance"
-type "PassiveData"
-data "DisplayName" "hf4ec8b07gbb48g860ag940cg471cbb0c435a;1"
-data "Description" "h163a49eegcf6bgc3f9g2e3egeb269dc99438;1"
-data "Icon" "PassiveFeature_DivineAllegiance"
-data "Properties" "ForceShowInCC;Highlighted"
-data "Boosts" "Resistance(Necrotic,Resistant);Resistance(Radiant,Resistant)"
 
