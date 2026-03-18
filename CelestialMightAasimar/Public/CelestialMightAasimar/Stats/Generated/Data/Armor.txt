@@ -1,0 +1,18 @@
+new entry "TEP_AAS_Wings"
+type "Armor"
+using "ARM_Cloak"
+data "RootTemplate" "639823d7-f489-41f6-b0bc-f0f32a78e82b"
+data "UseCosts" "BonusActionPoint:1"
+
+new entry "TEP_AAS_Wings_Silver"
+type "Armor"
+using "TEP_AAS_Wings"
+data "RootTemplate" "e11e800f-96ad-43c1-a194-051850003dff"
+data "Boosts" "UnlockSpell(Projectile_Fly_Spell);"
+
+new entry "TEP_AAS_Wings_Gold"
+type "Armor"
+using "TEP_AAS_Wings"
+data "RootTemplate" "da740da3-5b1e-4eea-a2a8-49f45fb7477b"
+data "Boosts" "UnlockSpell(Projectile_Fly_Spell);"
+

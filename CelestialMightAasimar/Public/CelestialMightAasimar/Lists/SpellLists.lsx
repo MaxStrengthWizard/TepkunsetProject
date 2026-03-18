@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="SpellLists">
+    <node id="root">
+      <children>
+        <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Aasimar_1" />
+                    <attribute id="Spells" type="LSString" value="Target_Light;Target_Aasimar_HealingHands" />
+                    <attribute id="UUID" type="guid" value="6037a7f0-8270-4567-9e3e-9c9dc933c183" />
+                </node>
+        <node id="SpellList">
+                    <attribute id="Name" type="FixedString" value="Aasimar_3" />
+                    <attribute id="Spells" type="LSString" value="Shout_Aasimar_Celestial_Revelation_Container" />
+                    <attribute id="UUID" type="guid" value="a2882779-ac61-4cd8-995d-b342dd80b8ac" />
+                </node>
+      </children>
+    </node>
+  </region>
+</save>

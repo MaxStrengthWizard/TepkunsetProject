@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="Progressions">
+    <node id="root">
+      <children>
+        <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0)" />
+                    <attribute id="Level" type="uint8" value="1" />
+                    <attribute id="Name" type="LSString" value="Aasimar" />
+                    <attribute id="PassivesAdded" type="LSString" value="CelestialResistance;Darkvision" />
+                    <attribute id="ProgressionType" type="uint8" value="2" />
+                    <attribute id="Selectors" type="LSString" value="AddSpells(6037a7f0-8270-4567-9e3e-9c9dc933c183,,Charisma,,AlwaysPrepared)" />
+                    <attribute id="TableUUID" type="guid" value="5fed70bc-14c4-496f-a5c3-9bce229cfd6a" />
+                    <attribute id="UUID" type="guid" value="aafbb4b9-073a-4e88-8ef7-77ae7edb3285" />
+                </node>
+        <node id="Progression">
+                    <attribute id="Level" type="uint8" value="3" />
+                    <attribute id="Name" type="LSString" value="Aasimar" />
+                    <attribute id="PassivesAdded" type="LSString" value="CelestialRevelation" />
+                    <attribute id="ProgressionType" type="uint8" value="2" />
+                    <attribute id="Selectors" type="LSString" value="AddSpells(a2882779-ac61-4cd8-995d-b342dd80b8ac,,Charisma,,AlwaysPrepared)" />
+                    <attribute id="TableUUID" type="guid" value="5fed70bc-14c4-496f-a5c3-9bce229cfd6a" />
+                    <attribute id="UUID" type="guid" value="d2a10e27-073b-49de-b2d8-8d000229d1a3" />
+                </node>
+      </children>
+    </node>
+  </region>
+</save>

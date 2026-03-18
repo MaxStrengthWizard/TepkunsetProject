@@ -1,0 +1,5 @@
+new entry "TEP_AAS_Wings_Pack"
+type "Object"
+using "OBJ_Backpack"
+data "RootTemplate" "b0d44c52-b666-45c3-9366-59eab74c7950"
+
