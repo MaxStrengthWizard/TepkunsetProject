@@ -13,9 +13,6 @@ DB_RaceTags((TAG)AASIMAR_41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201, (TAG)REALLY_AASIM
 DB_RaceMetaTags(RARE_d2f86ec3-c41f-47e1-8acd-984872a4d7d5, AASIMAR_41c6cdc9-aff5-46ae-afc4-aa0ccd9cd201);
 DB_RaceMetaTags(REALLY_RARE_987a41e3-2482-4c74-8c30-f3843cfdb7f3, REALLY_AASIMAR_2fddf7dd-f79b-4998-882c-d7257badbfe6);
 
-//Blood Potion
-DB_GLO_BloodElixirs_RacialElixirTemplates((TAG)REALLY_AASIMAR_2fddf7dd-f79b-4998-882c-d7257badbfe6, (ITEMROOT)CONS_Elixir_Blood_Aasimar_b08e3437-92db-4c07-9a14-a9dc1e6b14d1, "");
-
 //END_REGION
 
 KBSECTION

@@ -13,5 +13,5 @@ data "Description" "h65db4c24ga238g0a44gf0a1g2cd2fd79dede;1"
 data "DescriptionParams" "DealDamage(ProficiencyBonus,Radiant);DealDamage(ProficiencyBonus,Necrotic)"
 data "Icon" "Aasimar_Revelation"
 data "Properties" "ForceShowInCC;Highlighted"
-data "Boosts" "ActionResource(Interrupt_Revelation,1,0)"
+data "Boosts" "ActionResource(Interrupt_Revelation_Charge,1,0)"
 

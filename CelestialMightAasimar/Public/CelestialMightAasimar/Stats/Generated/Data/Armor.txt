@@ -8,11 +8,11 @@ new entry "TEP_AAS_Wings_Silver"
 type "Armor"
 using "TEP_AAS_Wings"
 data "RootTemplate" "e11e800f-96ad-43c1-a194-051850003dff"
-data "Boosts" "UnlockSpell(Projectile_Fly_Spell)"
+data "Boosts" "UnlockSpell(Projectile_Fly_Aasimar)"
 
 new entry "TEP_AAS_Wings_Gold"
 type "Armor"
 using "TEP_AAS_Wings"
 data "RootTemplate" "da740da3-5b1e-4eea-a2a8-49f45fb7477b"
-data "Boosts" "UnlockSpell(Projectile_Fly_Spell)"
+data "Boosts" "UnlockSpell(Projectile_Fly_Aasimar)"
 

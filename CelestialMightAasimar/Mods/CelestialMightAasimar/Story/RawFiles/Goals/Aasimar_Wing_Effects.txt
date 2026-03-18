@@ -13,7 +13,7 @@ DB_AasimarCurrentWings((CHARACTERROOT)AAS_MALE_STRONG_PLAY_UUIDHERE, (GUIDSTRING
 
 KBSECTION
 IF
-StatusApplied(_Character, "AASIMAR_HEAVENLY_WINGS_VFX", _, _)
+StatusApplied(_Character, "AASIMAR_WINGS_OWNER", _, _)
 AND
 DB_Players((CHARACTER)_Character)
 AND
@@ -24,7 +24,7 @@ THEN
 RemoveCustomVisualOvirride((CHARACTER)_Character, (GUIDSTRING)_CurrentWings);
 
 IF
-StatusApplied(_Character, "AASIMAR_HEAVENLY_WINGS_VFX", _, _)
+StatusApplied(_Character, "AASIMAR_WINGS_OWNER", _, _)
 AND
 DB_Players((CHARACTER)_Character)
 AND
@@ -35,7 +35,7 @@ THEN
 AddCustomVisualOverride((CHARACTER)_Character, (GUIDSTRING)_Effect);
 
 IF
-StatusRemoved(_Character, "AASIMAR_HEAVENLY_WINGS_VFX", _, _)
+StatusRemoved(_Character, "AASIMAR_WINGS_OWNER", _, _)
 AND
 DB_Players((CHARACTER)_Character)
 AND
@@ -46,7 +46,7 @@ THEN
 RemoveCustomVisualOvirride((CHARACTER)_Character, (GUIDSTRING)_Effect);
 
 IF
-StatusRemoved(_Character, "AASIMAR_HEAVENLY_WINGS_VFX", _, _)
+StatusRemoved(_Character, "AASIMAR_WINGS_OWNER", _, _)
 AND
 DB_Players((CHARACTER)_Character)
 AND

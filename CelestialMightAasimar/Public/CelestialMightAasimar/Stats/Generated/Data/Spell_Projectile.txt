@@ -1,0 +1,9 @@
+new entry "Projectile_Fly_Aasimar"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Fly"
+data "TargetRadius" "9"
+data "UseCosts" "Movement:Distance"
+data "PrepareEffect" "3a941a0f-ec18-47b8-9bce-1bcc0575faa4"
+data "CastEffect" "77b35384-0ccd-454b-b38c-66ca362d3309"
+
