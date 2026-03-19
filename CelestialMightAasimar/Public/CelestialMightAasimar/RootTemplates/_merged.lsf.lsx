@@ -146,13 +146,13 @@
 					</children>
 				</node>
 				<node id="GameObjects">
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="77298939-8b3d-4de0-9848-9ef2b14384dc" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h0930984d89c54cc3815455daeb8f6f85d81c" version="1" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="4a5ba7da-ce02-4902-b6be-959b0f60c727" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h40a69736440c471b8d3faf80aec618ef8d87" version="1" />
 					<attribute id="Equipment" type="FixedString" value="EQP_Daisy" />
 					<attribute id="Flag" type="int32" value="0" />
-					<attribute id="Icon" type="FixedString" value="77298939-8b3d-4de0-9848-9ef2b14384dc-EQP_Daisy_(Icon_Human_Female)" />
+					<attribute id="Icon" type="FixedString" value="4a5ba7da-ce02-4902-b6be-959b0f60c727-EQP_Daisy_(Icon_Human_Female)" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="c4e1c326-2d36-4975-bb81-5e6d592eeeb3" />
+					<attribute id="MapKey" type="FixedString" value="3ac8634f-6556-4017-af16-2a9a0ecf5078" />
 					<attribute id="Name" type="LSString" value="Aasimar_Female_Daisy" />
 					<attribute id="ParentTemplateId" type="FixedString" value="c40a12ef-20f6-4c49-b287-8dc85eb75689" />
 					<attribute id="Race" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79" />
@@ -180,26 +180,26 @@
 				</node>
 				<node id="GameObjects">
 					<attribute id="AnimationSetResourceID" type="FixedString" value="480f4da3-8e32-ce07-5a00-a233bcf602d9" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="d0a443b9-4a03-40df-93a7-01dd46a41cf5" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="273fd1bc-f487-40cb-afe7-16d331bd9d10" />
 					<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" />
-					<attribute id="Icon" type="FixedString" value="d0a443b9-4a03-40df-93a7-01dd46a41cf5-EQP_Daisy_(Icon_Human_Female)" />
+					<attribute id="Icon" type="FixedString" value="273fd1bc-f487-40cb-afe7-16d331bd9d10-EQP_Daisy_(Icon_Human_Female)" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="4bed80ff-a1bc-4608-9a60-d6420fe73142" />
+					<attribute id="MapKey" type="FixedString" value="9adc5fda-ba4a-4ac6-987c-2f4bb563055a" />
 					<attribute id="Name" type="LSString" value="Aasimar_Female_Daisy_Strong" />
-					<attribute id="ParentTemplateId" type="FixedString" value="c4e1c326-2d36-4975-bb81-5e6d592eeeb3" />
+					<attribute id="ParentTemplateId" type="FixedString" value="3ac8634f-6556-4017-af16-2a9a0ecf5078" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<children>
 						<node id="LocomotionParams" />
 					</children>
 				</node>
 				<node id="GameObjects">
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="2d35b634-07a9-482e-92b0-fd7310066bf9" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h17080391c33c4d84964271bcf862c3f5g9eb" version="1" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="9f4b560d-327a-4f27-a01f-155765522a73" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb80cd039993d49b196e7500136da8a768962" version="1" />
 					<attribute id="Equipment" type="FixedString" value="EQP_Daisy" />
 					<attribute id="Flag" type="int32" value="0" />
-					<attribute id="Icon" type="FixedString" value="2d35b634-07a9-482e-92b0-fd7310066bf9-EQP_Daisy_(Icon_Human_Male)" />
+					<attribute id="Icon" type="FixedString" value="9f4b560d-327a-4f27-a01f-155765522a73-EQP_Daisy_(Icon_Human_Male)" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="9ba581ac-66c5-4291-b4ef-d07b8deb69b4" />
+					<attribute id="MapKey" type="FixedString" value="0602ace6-1845-48f8-bcab-199151167a41" />
 					<attribute id="Name" type="LSString" value="Aasimar_Male_Daisy" />
 					<attribute id="ParentTemplateId" type="FixedString" value="bcfdfef1-e6d3-469f-bc8c-9221e8e73e6b" />
 					<attribute id="Race" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79" />
@@ -227,13 +227,13 @@
 				</node>
 				<node id="GameObjects">
 					<attribute id="AnimationSetResourceID" type="FixedString" value="e9355d67-3b96-f538-a836-81ad0b09d87e" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="7483295c-a5f6-4992-a705-def353a0efc2" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="dc9044e2-d92e-434d-a830-b0f8a0bb0723" />
 					<attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
-					<attribute id="Icon" type="FixedString" value="7483295c-a5f6-4992-a705-def353a0efc2-EQP_Daisy_(Icon_Human_Male)" />
+					<attribute id="Icon" type="FixedString" value="dc9044e2-d92e-434d-a830-b0f8a0bb0723-EQP_Daisy_(Icon_Human_Male)" />
 					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="MapKey" type="FixedString" value="84d26999-4b03-4350-9552-e890b1845f78" />
+					<attribute id="MapKey" type="FixedString" value="b44dd462-c5d9-4b24-8a79-c5ffea6be800" />
 					<attribute id="Name" type="LSString" value="Aasimar_Male_Daisy_Strong" />
-					<attribute id="ParentTemplateId" type="FixedString" value="9ba581ac-66c5-4291-b4ef-d07b8deb69b4" />
+					<attribute id="ParentTemplateId" type="FixedString" value="0602ace6-1845-48f8-bcab-199151167a41" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<children>
 						<node id="LocomotionParams" />

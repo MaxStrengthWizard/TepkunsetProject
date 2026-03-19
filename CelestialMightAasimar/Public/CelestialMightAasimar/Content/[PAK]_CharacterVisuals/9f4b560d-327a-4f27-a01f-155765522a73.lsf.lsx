@@ -5,10 +5,10 @@
 		<node id="CharacterVisualBank">
 			<children>
 				<node id="Resource">
-					<attribute id="BaseVisual" type="FixedString" value="d29de453-bc00-416d-a819-d09efa4ffabe" />
+					<attribute id="BaseVisual" type="FixedString" value="3800774a-029d-4541-b7e4-264c90ccc75f" />
 					<attribute id="BodySetVisual" type="FixedString" value="38cee76d-1a75-4419-9293-52e47fda65e9" />
-					<attribute id="ID" type="FixedString" value="2d35b634-07a9-482e-92b0-fd7310066bf9" />
-					<attribute id="Name" type="LSString" value="Aasimar_Male_Daisy_9ba581ac-66c5-4291-b4ef-d07b8deb69b4" />
+					<attribute id="ID" type="FixedString" value="9f4b560d-327a-4f27-a01f-155765522a73" />
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Daisy_0602ace6-1845-48f8-bcab-199151167a41" />
 					<attribute id="ShowEquipmentVisuals" type="bool" value="True" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144537400540922158" />
 					<children>

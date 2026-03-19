@@ -13,7 +13,7 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="555636ad-9735-4d70-92f7-3a343d69f2a4" />
+					<attribute id="ID" type="FixedString" value="4f2ce45a-11eb-404a-9bd0-566c1463de93" />
 					<attribute id="MaterialType" type="uint8" value="0" />
 					<attribute id="Name" type="LSString" value="AAS_F_Base" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
@@ -28,8 +28,8 @@
 					<attribute id="_OriginalFileVersion_" type="int64" value="144959613005988640" />
 					<children>
 						<node id="AnimationSetOverrides">
-							<attribute id="PairElement1" type="guid" value="bc52a82b-315c-4b20-aa06-a15005f706e5" />
-							<attribute id="PairElement2" type="FixedString" value="01d59873-92d2-48e3-b68c-6f236b72e4be" />
+							<attribute id="PairElement1" type="guid" value="be59efb2-a126-4dc2-a69b-c4cfd0de2856" />
+							<attribute id="PairElement2" type="FixedString" value="e130ce81-1095-4300-be8e-437a447bb67d" />
 							<attribute id="strAnimationSetOverrideType" type="int32" value="0" />
 						</node>
 						<node id="AnimationSetOverrides">
@@ -248,7 +248,7 @@
 							<attribute id="strAnimationSetOverrideType" type="int32" value="1" />
 						</node>
 						<node id="AnimationWaterfall">
-							<attribute id="Object" type="FixedString" value="edcbc045-0578-4e00-a1c0-3d33d36a02c8" />
+							<attribute id="Object" type="FixedString" value="ccfb217d-a765-4312-b593-e07f4677d30f" />
 						</node>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="e005b1e4-c76c-4c92-9a12-569c324c7ca7" />

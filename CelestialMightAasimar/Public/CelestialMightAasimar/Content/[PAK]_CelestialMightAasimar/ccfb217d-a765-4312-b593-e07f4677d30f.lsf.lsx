@@ -5,8 +5,8 @@
 		<node id="AnimationSetBank">
 			<children>
 				<node id="Resource">
-					<attribute id="ID" type="FixedString" value="edcbc045-0578-4e00-a1c0-3d33d36a02c8" />
-					<attribute id="Name" type="LSString" value="HUM_F_FS_AAS_Base" />
+					<attribute id="ID" type="FixedString" value="ccfb217d-a765-4312-b593-e07f4677d30f" />
+					<attribute id="Name" type="LSString" value="HUM_F_MS_AAS_Base" />
 					<attribute id="PreviewVisualResourceID" type="guid" value="00000000-0000-0000-0000-000000000000" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
 					<children>

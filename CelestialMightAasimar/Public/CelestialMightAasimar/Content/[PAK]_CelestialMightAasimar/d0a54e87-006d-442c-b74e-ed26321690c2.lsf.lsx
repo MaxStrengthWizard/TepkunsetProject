@@ -8,29 +8,29 @@
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="8e812194-346e-54a3-3388-00cf299a0269" />
-					<attribute id="BoundsMax" type="fvec3" value="2.071022 2.467827 0.9452027" />
-					<attribute id="BoundsMin" type="fvec3" value="-2.071022 1.072324 0.05757947" />
+					<attribute id="BoundsMax" type="fvec3" value="1.943394 2.315746 0.886954" />
+					<attribute id="BoundsMin" type="fvec3" value="-1.943394 1.006241 0.0540311" />
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="6cdbb492-7c55-4f8f-9fd6-af1dcefb2b6b" />
+					<attribute id="ID" type="FixedString" value="d0a54e87-006d-442c-b74e-ed26321690c2" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_M_Aasimar_Wings" />
+					<attribute id="Name" type="LSString" value="HUM_F_AAS_Radiant_Wings" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
-					<attribute id="SkeletonResource" type="FixedString" value="f642085d-003d-f7ab-b4ff-59b107a12972" />
+					<attribute id="SkeletonResource" type="FixedString" value="9619f1d7-0436-1c5c-62a0-1726b10cea4b" />
 					<attribute id="SkeletonSlot" type="FixedString" value="Wings" />
 					<attribute id="Slot" type="FixedString" value="Unassigned" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharedDev/Assets/Characters/_Anims/_Creatures/Deva/_Male/Resources/DEVA_HUM_M_Deva_Wings.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharedDev/Assets/Characters/_Models/_Creatures/Deva/Deva_Selune/Resources/DEVA_HUM_F_Wings.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/SharedDev/Assets/Characters/_Anims/_Creatures/Deva/_Male/Resources/DEVA_HUM_M_Deva_Wings.Dummy_Root.0" />
-					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/SharedDev/Assets/Characters/_Models/_Creatures/Deva/Deva_Selune/Resources/DEVA_HUM_F_Wings.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144537400540921856" />
 					<children>
 						<node id="AnimationSetOverrides">
-							<attribute id="PairElement1" type="guid" value="bc52a82b-315c-4b20-aa06-a15005f706e5" />
-							<attribute id="PairElement2" type="FixedString" value="376f41bb-3fc7-4892-990b-3aa8d1ca3211" />
+							<attribute id="PairElement1" type="guid" value="be59efb2-a126-4dc2-a69b-c4cfd0de2856" />
+							<attribute id="PairElement2" type="FixedString" value="dc73b93e-c622-4a55-aa98-22d4a0d36572" />
 							<attribute id="strAnimationSetOverrideType" type="int32" value="0" />
 						</node>
 						<node id="AnimationWaterfall">
@@ -40,19 +40,14 @@
 							<attribute id="Object" type="FixedString" value="17b85ba0-f4b7-abd3-4ed5-307d71a55836" />
 						</node>
 						<node id="AnimationWaterfall">
-							<attribute id="Object" type="FixedString" value="073b81b0-de46-44fd-baa4-b3914d9fab2d" />
+							<attribute id="Object" type="FixedString" value="55798a5e-5712-4608-9db7-fd4ada616aa5" />
 						</node>
 						<node id="Base" />
 						<node id="ClothProxyMapping" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="be16445c-0402-8063-754c-aec38c06d491" />
-							<attribute id="ObjectID" type="FixedString" value="DEVA_HUM_M_Deva_Wings.HUM_M_Deva_Wings_Attachment_Mesh.0" />
-						</node>
-						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="be16445c-0402-8063-754c-aec38c06d491" />
-							<attribute id="ObjectID" type="FixedString" value="DEVA_HUM_M_Deva_Wings.HUM_M_Deva_Wings_Mesh.1" />
+							<attribute id="ObjectID" type="FixedString" value="DEVA_HUM_F_Wings.DEVA_HUM_F_Wings_Mesh.0" />
 						</node>
 					</children>
 				</node>

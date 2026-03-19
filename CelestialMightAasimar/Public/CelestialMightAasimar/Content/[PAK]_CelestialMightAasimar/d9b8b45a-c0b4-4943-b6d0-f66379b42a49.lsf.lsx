@@ -13,9 +13,9 @@
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="ID" type="FixedString" value="00fbeebd-f7a2-49ce-80a7-e390e02530d8" />
+					<attribute id="ID" type="FixedString" value="d9b8b45a-c0b4-4943-b6d0-f66379b42a49" />
 					<attribute id="MaterialType" type="uint8" value="0" />
-					<attribute id="Name" type="LSString" value="HUM_MS_Aasimar_Wings" />
+					<attribute id="Name" type="LSString" value="HUM_FS_AAS_Radiant_Wings" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -23,14 +23,14 @@
 					<attribute id="SkeletonSlot" type="FixedString" value="Wings" />
 					<attribute id="Slot" type="FixedString" value="Unassigned" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/CelestialMightAasimar/HUM_MS_AAS_Wings.GR2" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharedDev/Assets/Characters/_Models/Humans/_FemaleStrong/Resources/HUM_FS_Wings.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/CelestialMightAasimar/HUM_MS_AAS_Wings.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/SharedDev/Assets/Characters/_Models/Humans/_FemaleStrong/Resources/HUM_FS_Wings.Dummy_Root.0" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
 					<children>
 						<node id="AnimationSetOverrides">
-							<attribute id="PairElement1" type="guid" value="bc52a82b-315c-4b20-aa06-a15005f706e5" />
-							<attribute id="PairElement2" type="FixedString" value="376f41bb-3fc7-4892-990b-3aa8d1ca3211" />
+							<attribute id="PairElement1" type="guid" value="be59efb2-a126-4dc2-a69b-c4cfd0de2856" />
+							<attribute id="PairElement2" type="FixedString" value="dc73b93e-c622-4a55-aa98-22d4a0d36572" />
 							<attribute id="strAnimationSetOverrideType" type="int32" value="0" />
 						</node>
 						<node id="AnimationWaterfall">
@@ -40,19 +40,19 @@
 							<attribute id="Object" type="FixedString" value="17b85ba0-f4b7-abd3-4ed5-307d71a55836" />
 						</node>
 						<node id="AnimationWaterfall">
-							<attribute id="Object" type="FixedString" value="073b81b0-de46-44fd-baa4-b3914d9fab2d" />
+							<attribute id="Object" type="FixedString" value="55798a5e-5712-4608-9db7-fd4ada616aa5" />
 						</node>
 						<node id="Base" />
 						<node id="ClothProxyMapping" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="be16445c-0402-8063-754c-aec38c06d491" />
-							<attribute id="ObjectID" type="FixedString" value="HUM_MS_Wings.HUM_FS_Wings_Mesh.0" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_Wings.HUM_FS_Wings_Mesh.0" />
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="be16445c-0402-8063-754c-aec38c06d491" />
-							<attribute id="ObjectID" type="FixedString" value="HUM_MS_Wings.HUM_FS_Wings_Attachment_Mesh.1" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_FS_Wings.HUM_FS_Wings_Attachment_Mesh.1" />
 						</node>
 					</children>
 				</node>

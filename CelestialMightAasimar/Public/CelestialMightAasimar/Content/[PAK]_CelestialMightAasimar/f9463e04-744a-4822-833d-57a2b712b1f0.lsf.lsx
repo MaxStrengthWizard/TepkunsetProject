@@ -8,7 +8,7 @@
 					<attribute id="AdditiveLoopingAnimationID" type="FixedString" value="" />
 					<attribute id="AnchorHand" type="uint8" value="0" />
 					<attribute id="Duration" type="float" value="0.3" />
-					<attribute id="ID" type="FixedString" value="3de28809-3290-41b3-bc82-d76ec42fb461" />
+					<attribute id="ID" type="FixedString" value="f9463e04-744a-4822-833d-57a2b712b1f0" />
 					<attribute id="IsPoseBank" type="bool" value="False" />
 					<attribute id="LeftTransitionAnimation" type="FixedString" value="" />
 					<attribute id="Looping" type="bool" value="False" />
