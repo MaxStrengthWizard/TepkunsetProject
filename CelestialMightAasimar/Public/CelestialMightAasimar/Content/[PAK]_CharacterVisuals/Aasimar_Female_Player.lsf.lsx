@@ -9,7 +9,7 @@
 					<attribute id="Name" type="LSString" value="Aasimar_Female_Player_dd0cb8a2-b46e-4c4a-b6a5-063e0f5c7469" />
 					<attribute id="BodySetVisual" type="FixedString" value="db6e5918-8514-4dcc-8363-e8fd3c50cce5" />
 					<attribute id="ShowEquipmentVisuals" type="bool" value="True" />
-					<attribute id="BaseVisual" type="FixedString" value="4b8ff439-0a98-6e6c-ad48-c695c1c29b27" />
+					<attribute id="BaseVisual" type="FixedString" value="555636ad-9735-4d70-92f7-3a343d69f2a4" />
 					<children>
 						<node id="Slots">
 							<attribute id="Slot" type="FixedString" value="Head" />

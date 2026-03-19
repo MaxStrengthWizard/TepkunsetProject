@@ -5,6 +5,49 @@
 		<node id="Templates">
 			<children>
 				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="dd0cb8a2-b46e-4c4a-b6a5-063e0f5c7469" />
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Player" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e87dd6f0-22f4-4cd5-914f-adddd2595941" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h61a7f42agaa2dg0a37g0201gffeada6c93c9" version="2" />
+					<attribute id="Icon" type="FixedString" value="65508880-7afc-74cf-97eb-8d85c80b79b4-_(Icon_Human_Female)" />
+					<attribute id="Stats" type="FixedString" value="HeroHumanFemale" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="IsPlayer" type="bool" value="False" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="b9e588b4-d957-fea3-5572-ad798d05a010" />
+					<attribute id="PortraitVisualResourceID" type="FixedString" value="51214aaf-d81d-60f3-b7a6-28002ade0a6f" />
+					<attribute id="Race" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79" />
+					<attribute id="Faction" type="guid" value="9fac6ec7-642b-3553-1bc8-6b8e0edae7d5" />
+					<children>
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="02cdc15e-1dc3-5eb4-f73c-9458b4f90b9f" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-ae64-9684d846eb83" />
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="1638a96f-373d-410a-b731-22f164cd3466" />
 					<attribute id="Name" type="LSString" value="Aasimar_Female_Strong_Player" />
 					<attribute id="LevelName" type="FixedString" value="" />
@@ -26,6 +69,48 @@
 								</node>
 								<node id="SpeakerGroup">
 									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-ae64-9684d846eb83" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="d625305f-bb78-45d3-a8a1-8a4d5408df1e" />
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Player" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="acd7060a-43bd-4dc9-b050-9d9b2cf7b7df" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h153d4254gf6c4gc42fg3900g112b87a47121" version="2" />
+					<attribute id="Icon" type="FixedString" value="40b6c0b8-693d-3726-6819-acbc8481f208-_(Icon_Human_Male)" />
+					<attribute id="Stats" type="FixedString" value="HeroHumanMale" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="47e8ffb6-bac5-4231-7e56-aa62dd69d908" />
+					<attribute id="PortraitVisualResourceID" type="FixedString" value="71aaadda-22e0-f962-14ff-f57d57a2e726" />
+					<attribute id="Race" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79" />
+					<attribute id="Faction" type="guid" value="6545a015-1b3d-66a4-6a0e-6ec62065cdb7" />
+					<children>
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="02cdc15e-1dc3-5eb4-f73c-9458b4f90b9f" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-ae64-9684d846eb83" />
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
 								</node>
 							</children>
 						</node>
@@ -58,6 +143,180 @@
 							</children>
 						</node>
 						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="77298939-8b3d-4de0-9848-9ef2b14384dc" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h0930984d89c54cc3815455daeb8f6f85d81c" version="1" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Daisy" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="77298939-8b3d-4de0-9848-9ef2b14384dc-EQP_Daisy_(Icon_Human_Female)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="c4e1c326-2d36-4975-bb81-5e6d592eeeb3" />
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Daisy" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c40a12ef-20f6-4c49-b287-8dc85eb75689" />
+					<attribute id="Race" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="6fe77279-1bba-5cc0-a5e0-34beabd2501d" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="0b378e99-5830-da47-9614-7c4aae3a1e27" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="17c2405e-5771-4150-ad00-b1ef8d1dd5ae" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="AnimationSetResourceID" type="FixedString" value="480f4da3-8e32-ce07-5a00-a233bcf602d9" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="d0a443b9-4a03-40df-93a7-01dd46a41cf5" />
+					<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" />
+					<attribute id="Icon" type="FixedString" value="d0a443b9-4a03-40df-93a7-01dd46a41cf5-EQP_Daisy_(Icon_Human_Female)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="4bed80ff-a1bc-4608-9a60-d6420fe73142" />
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Daisy_Strong" />
+					<attribute id="ParentTemplateId" type="FixedString" value="c4e1c326-2d36-4975-bb81-5e6d592eeeb3" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="2d35b634-07a9-482e-92b0-fd7310066bf9" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h17080391c33c4d84964271bcf862c3f5g9eb" version="1" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Daisy" />
+					<attribute id="Flag" type="int32" value="0" />
+					<attribute id="Icon" type="FixedString" value="2d35b634-07a9-482e-92b0-fd7310066bf9-EQP_Daisy_(Icon_Human_Male)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="9ba581ac-66c5-4291-b4ef-d07b8deb69b4" />
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Daisy" />
+					<attribute id="ParentTemplateId" type="FixedString" value="bcfdfef1-e6d3-469f-bc8c-9221e8e73e6b" />
+					<attribute id="Race" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<children>
+						<node id="LocomotionParams" />
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="6fe77279-1bba-5cc0-a5e0-34beabd2501d" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="9817eece-ccb2-7f70-ce27-1e10bf08efa5" />
+								</node>
+							</children>
+						</node>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="807af8f5-0183-42d9-8d40-6e93d5236cc2" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="AnimationSetResourceID" type="FixedString" value="e9355d67-3b96-f538-a836-81ad0b09d87e" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="7483295c-a5f6-4992-a705-def353a0efc2" />
+					<attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
+					<attribute id="Icon" type="FixedString" value="7483295c-a5f6-4992-a705-def353a0efc2-EQP_Daisy_(Icon_Human_Male)" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="MapKey" type="FixedString" value="84d26999-4b03-4350-9552-e890b1845f78" />
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Daisy_Strong" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9ba581ac-66c5-4291-b4ef-d07b8deb69b4" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<children>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="b0d44c52-b666-45c3-9366-59eab74c7950" />
+					<attribute id="Name" type="LSString" value="TEP_AAS_Wings_Pack" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="ea8cc72a-e078-4ce7-bd63-14bcf1851f46" />
+					<attribute id="VisualTemplate" type="FixedString" value="6bf60367-b5ce-d8c3-de85-0693248c2d31" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="0729dea5-31d8-a61c-d66e-009ba2159efd" />
+					<attribute id="DisplayName" type="TranslatedString" handle="he0570171g38cbg03fegb201g16bb950f4c97" version="2" />
+					<attribute id="CoverAmount" type="uint8" value="0" />
+					<attribute id="CanClimbOn" type="bool" value="False" />
+					<attribute id="CanShootThrough" type="bool" value="True" />
+					<attribute id="CanClickThrough" type="bool" value="False" />
+					<attribute id="WalkThrough" type="bool" value="True" />
+					<attribute id="WalkOn" type="bool" value="False" />
+					<attribute id="Wadable" type="bool" value="False" />
+					<attribute id="LoopSound" type="FixedString" value="" />
+					<attribute id="SoundInitEvent" type="FixedString" value="" />
+					<attribute id="SoundAttenuation" type="int16" value="-1" />
+					<attribute id="IsPointerBlocker" type="bool" value="False" />
+					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Backpack_C_Posed_A" />
+					<attribute id="Stats" type="FixedString" value="TEP_AAS_Wings_Pack" />
+					<attribute id="TreasureOnDestroy" type="bool" value="True" />
+					<attribute id="Tooltip" type="uint8" value="2" />
+					<attribute id="InventoryType" type="uint8" value="11" />
+					<attribute id="Description" type="TranslatedString" handle="h2d0c6519g5e1ag016fg1501g8d434399a1bc" version="2" />
+					<attribute id="IsInspector" type="bool" value="False" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.111174 -0.00787998 -0.1364405" />
+									<attribute id="Max" type="fvec3" value="0.116174 0.593682 0.0918415" />
+									<attribute id="Radius" type="float" value="0.113354" />
+									<attribute id="Height" type="float" value="0.591562" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.222348 -0.00787998 -0.272881" />
+									<attribute id="Max" type="fvec3" value="0.232348 0.593682 0.183683" />
+									<attribute id="Radius" type="float" value="0.226708" />
+									<attribute id="Height" type="float" value="0.591562" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.222348 -0.00787998 -0.272881" />
+									<attribute id="Max" type="fvec3" value="0.232348 0.593682 0.183683" />
+									<attribute id="Radius" type="float" value="0.226708" />
+									<attribute id="Height" type="float" value="0.591562" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDestroyActions">
+							<children>
+								<node id="Action">
+									<attribute id="ActionType" type="int32" value="26" />
+									<children>
+										<node id="Attributes">
+											<attribute id="Animation" type="FixedString" value="" />
+											<attribute id="Conditions" type="LSString" value="" />
+											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
+											<attribute id="PlayOnHUD" type="bool" value="False" />
+										</node>
+									</children>
+								</node>
+							</children>
+						</node>
+						<node id="InventoryList">
+							<children>
+								<node id="InventoryItem">
+									<attribute id="Object" type="FixedString" value="TEP_AAS_Wings_Pack_TT" />
+								</node>
+							</children>
+						</node>
 					</children>
 				</node>
 				<node id="GameObjects">
@@ -174,128 +433,6 @@
 					</children>
 				</node>
 				<node id="GameObjects">
-					<attribute id="MapKey" type="FixedString" value="b0d44c52-b666-45c3-9366-59eab74c7950" />
-					<attribute id="Name" type="LSString" value="TEP_AAS_Wings_Pack" />
-					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="Type" type="FixedString" value="item" />
-					<attribute id="ParentTemplateId" type="FixedString" value="ea8cc72a-e078-4ce7-bd63-14bcf1851f46" />
-					<attribute id="VisualTemplate" type="FixedString" value="6bf60367-b5ce-d8c3-de85-0693248c2d31" />
-					<attribute id="PhysicsTemplate" type="FixedString" value="0729dea5-31d8-a61c-d66e-009ba2159efd" />
-					<attribute id="DisplayName" type="TranslatedString" handle="he0570171g38cbg03fegb201g16bb950f4c97" version="2" />
-					<attribute id="CoverAmount" type="uint8" value="0" />
-					<attribute id="CanClimbOn" type="bool" value="False" />
-					<attribute id="CanShootThrough" type="bool" value="True" />
-					<attribute id="CanClickThrough" type="bool" value="False" />
-					<attribute id="WalkThrough" type="bool" value="True" />
-					<attribute id="WalkOn" type="bool" value="False" />
-					<attribute id="Wadable" type="bool" value="False" />
-					<attribute id="LoopSound" type="FixedString" value="" />
-					<attribute id="SoundInitEvent" type="FixedString" value="" />
-					<attribute id="SoundAttenuation" type="int16" value="-1" />
-					<attribute id="IsPointerBlocker" type="bool" value="False" />
-					<attribute id="Icon" type="FixedString" value="Item_LOOT_GEN_Backpack_C_Posed_A" />
-					<attribute id="Stats" type="FixedString" value="TEP_AAS_Wings_Pack" />
-					<attribute id="TreasureOnDestroy" type="bool" value="True" />
-					<attribute id="Tooltip" type="uint8" value="2" />
-					<attribute id="InventoryType" type="uint8" value="11" />
-					<attribute id="Description" type="TranslatedString" handle="h2d0c6519g5e1ag016fg1501g8d434399a1bc" version="2" />
-					<attribute id="IsInspector" type="bool" value="False" />
-					<children>
-						<node id="Bounds">
-							<children>
-								<node id="Bound">
-									<attribute id="Type" type="uint8" value="0" />
-									<attribute id="Shape" type="uint8" value="1" />
-									<attribute id="Min" type="fvec3" value="-0.111174 -0.00787998 -0.1364405" />
-									<attribute id="Max" type="fvec3" value="0.116174 0.593682 0.0918415" />
-									<attribute id="Radius" type="float" value="0.113354" />
-									<attribute id="Height" type="float" value="0.591562" />
-								</node>
-								<node id="Bound">
-									<attribute id="Type" type="uint8" value="1" />
-									<attribute id="Shape" type="uint8" value="1" />
-									<attribute id="Min" type="fvec3" value="-0.222348 -0.00787998 -0.272881" />
-									<attribute id="Max" type="fvec3" value="0.232348 0.593682 0.183683" />
-									<attribute id="Radius" type="float" value="0.226708" />
-									<attribute id="Height" type="float" value="0.591562" />
-								</node>
-								<node id="Bound">
-									<attribute id="Type" type="uint8" value="2" />
-									<attribute id="Shape" type="uint8" value="1" />
-									<attribute id="Min" type="fvec3" value="-0.222348 -0.00787998 -0.272881" />
-									<attribute id="Max" type="fvec3" value="0.232348 0.593682 0.183683" />
-									<attribute id="Radius" type="float" value="0.226708" />
-									<attribute id="Height" type="float" value="0.591562" />
-								</node>
-							</children>
-						</node>
-						<node id="OnDestroyActions">
-							<children>
-								<node id="Action">
-									<attribute id="ActionType" type="int32" value="26" />
-									<children>
-										<node id="Attributes">
-											<attribute id="Animation" type="FixedString" value="" />
-											<attribute id="Conditions" type="LSString" value="" />
-											<attribute id="ActivateSoundEvent" type="FixedString" value="3ea82655-5140-4287-9ab8-794559f182d3" />
-											<attribute id="PlayOnHUD" type="bool" value="False" />
-										</node>
-									</children>
-								</node>
-							</children>
-						</node>
-						<node id="InventoryList">
-							<children>
-								<node id="InventoryItem">
-									<attribute id="Object" type="FixedString" value="TEP_AAS_Wings_Pack_TT" />
-								</node>
-							</children>
-						</node>
-					</children>
-				</node>
-				<node id="GameObjects">
-					<attribute id="MapKey" type="FixedString" value="d625305f-bb78-45d3-a8a1-8a4d5408df1e" />
-					<attribute id="Name" type="LSString" value="Aasimar_Male_Player" />
-					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="Type" type="FixedString" value="character" />
-					<attribute id="ParentTemplateId" type="FixedString" value="acd7060a-43bd-4dc9-b050-9d9b2cf7b7df" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h153d4254gf6c4gc42fg3900g112b87a47121" version="2" />
-					<attribute id="Icon" type="FixedString" value="40b6c0b8-693d-3726-6819-acbc8481f208-_(Icon_Human_Male)" />
-					<attribute id="Stats" type="FixedString" value="HeroHumanMale" />
-					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="47e8ffb6-bac5-4231-7e56-aa62dd69d908" />
-					<attribute id="PortraitVisualResourceID" type="FixedString" value="71aaadda-22e0-f962-14ff-f57d57a2e726" />
-					<attribute id="Race" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79" />
-					<attribute id="Faction" type="guid" value="6545a015-1b3d-66a4-6a0e-6ec62065cdb7" />
-					<children>
-						<node id="SpeakerGroupList">
-							<children>
-								<node id="SpeakerGroup">
-									<attribute id="Object" type="guid" value="02cdc15e-1dc3-5eb4-f73c-9458b4f90b9f" />
-								</node>
-								<node id="SpeakerGroup">
-									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-ae64-9684d846eb83" />
-								</node>
-							</children>
-						</node>
-						<node id="Treasures">
-							<children>
-								<node id="TreasureItem">
-									<attribute id="Object" type="FixedString" value="Empty" />
-								</node>
-							</children>
-						</node>
-						<node id="TradeTreasures">
-							<children>
-								<node id="TreasureItem">
-									<attribute id="Object" type="FixedString" value="Empty" />
-								</node>
-							</children>
-						</node>
-						<node id="LocomotionParams" />
-					</children>
-				</node>
-				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="da740da3-5b1e-4eea-a2a8-49f45fb7477b" />
 					<attribute id="Name" type="LSString" value="TEP_AAS_Wings_Gold" />
 					<attribute id="LevelName" type="FixedString" value="" />
@@ -406,49 +543,6 @@
 								<node id="ParentRace" />
 							</children>
 						</node>
-					</children>
-				</node>
-				<node id="GameObjects">
-					<attribute id="MapKey" type="FixedString" value="dd0cb8a2-b46e-4c4a-b6a5-063e0f5c7469" />
-					<attribute id="Name" type="LSString" value="Aasimar_Female_Player" />
-					<attribute id="LevelName" type="FixedString" value="" />
-					<attribute id="Type" type="FixedString" value="character" />
-					<attribute id="ParentTemplateId" type="FixedString" value="e87dd6f0-22f4-4cd5-914f-adddd2595941" />
-					<attribute id="DisplayName" type="TranslatedString" handle="h61a7f42agaa2dg0a37g0201gffeada6c93c9" version="2" />
-					<attribute id="Icon" type="FixedString" value="65508880-7afc-74cf-97eb-8d85c80b79b4-_(Icon_Human_Female)" />
-					<attribute id="Stats" type="FixedString" value="HeroHumanFemale" />
-					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
-					<attribute id="IsPlayer" type="bool" value="False" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="b9e588b4-d957-fea3-5572-ad798d05a010" />
-					<attribute id="PortraitVisualResourceID" type="FixedString" value="51214aaf-d81d-60f3-b7a6-28002ade0a6f" />
-					<attribute id="Race" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79" />
-					<attribute id="Faction" type="guid" value="9fac6ec7-642b-3553-1bc8-6b8e0edae7d5" />
-					<children>
-						<node id="SpeakerGroupList">
-							<children>
-								<node id="SpeakerGroup">
-									<attribute id="Object" type="guid" value="02cdc15e-1dc3-5eb4-f73c-9458b4f90b9f" />
-								</node>
-								<node id="SpeakerGroup">
-									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-ae64-9684d846eb83" />
-								</node>
-							</children>
-						</node>
-						<node id="Treasures">
-							<children>
-								<node id="TreasureItem">
-									<attribute id="Object" type="FixedString" value="Empty" />
-								</node>
-							</children>
-						</node>
-						<node id="TradeTreasures">
-							<children>
-								<node id="TreasureItem">
-									<attribute id="Object" type="FixedString" value="Empty" />
-								</node>
-							</children>
-						</node>
-						<node id="LocomotionParams" />
 					</children>
 				</node>
 				<node id="GameObjects">
