@@ -1,17 +1,15 @@
 Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
-DB_AasimarHeavenlyWings((CHARACTERROOT)AAS_FEM_PLAY_UUIDHERE, (GUIDSTRING)WING_UUID);
-DB_AasimarHeavenlyWings((CHARACTERROOT)AAS_FEM_STRONG_PLAY_UUIDHERE, (GUIDSTRING)WING_UUID);
-DB_AasimarHeavenlyWings((CHARACTERROOT)AAS_MALE_PLAY_UUIDHERE, (GUIDSTRING)WING_UUID);
-DB_AasimarHeavenlyWings((CHARACTERROOT)AAS_MALE_STRONG_PLAY_UUIDHERE, (GUIDSTRING)WING_UUID);
-
-DB_AasimarCurrentWings((CHARACTERROOT)AAS_FEM_PLAY_UUIDHERE, (GUIDSTRING)WING_UUID);
-DB_AasimarCurrentWings((CHARACTERROOT)AAS_FEM_STRONG_PLAY_UUIDHERE, (GUIDSTRING)WING_UUID);
-DB_AasimarCurrentWings((CHARACTERROOT)AAS_MALE_PLAY_UUIDHERE, (GUIDSTRING)WING_UUID);
-DB_AasimarCurrentWings((CHARACTERROOT)AAS_MALE_STRONG_PLAY_UUIDHERE, (GUIDSTRING)WING_UUID);
+//REGION Store Player root templates with associated wing visuals
+DB_AasimarPlayersGoldWings((CHARACTERROOT)Aasimar_Female_Player_da740da3-5b1e-4eea-a2a8-49f45fb7477b, (GUIDSTRING)5f5c1eac-a6f2-42a0-b241-eb58b2233094);
+DB_AasimarPlayersGoldWings((CHARACTERROOT)Aasimar_Female_Strong_Player_1638a96f-373d-410a-b731-22f164cd3466, (GUIDSTRING)1fae770e-8c1b-4b93-9196-ac84a7481fd3);
+DB_AasimarPlayersGoldWings((CHARACTERROOT)Aasimar_Male_Player_d625305f-bb78-45d3-a8a1-8a4d5408df1e, (GUIDSTRING)8b150d36-7d68-4414-81b0-570eb9daafc8);
+DB_AasimarPlayersGoldWings((CHARACTERROOT)Aasimar_Male_Strong_Player_2d6ec6fc-d5e1-462e-ba41-e98f5c43fd61, (GUIDSTRING)7ac44e17-3358-408b-9d26-3222617e252d);
+//END_REGION
 
 KBSECTION
+//REGION Heavenly Wings
 IF
 StatusApplied(_Character, "AASIMAR_WINGS_OWNER", _, _)
 AND
@@ -19,18 +17,7 @@ DB_Players((CHARACTER)_Character)
 AND
 GetTemplate(_Character, (CHARACTERROOT)_Template)
 AND
-DB_AasimarCurrentWings(_Template, _CurrentWings)
-THEN
-RemoveCustomVisualOvirride((CHARACTER)_Character, (GUIDSTRING)_CurrentWings);
-
-IF
-StatusApplied(_Character, "AASIMAR_WINGS_OWNER", _, _)
-AND
-DB_Players((CHARACTER)_Character)
-AND
-GetTemplate(_Character, (CHARACTERROOT)_Template)
-AND
-DB_AasimarHeavenlyWings(_Template, _Effect)
+DB_AasimarPlayersGoldWings(_Template, _Effect)
 THEN
 AddCustomVisualOverride((CHARACTER)_Character, (GUIDSTRING)_Effect);
 
@@ -41,26 +28,10 @@ DB_Players((CHARACTER)_Character)
 AND
 GetTemplate(_Character, (CHARACTERROOT)_Template)
 AND
-DB_AasimarHeavenlyWings(_Template, _Effect)
+DB_AasimarPlayersGoldWings(_Template, _Effect)
 THEN
 RemoveCustomVisualOvirride((CHARACTER)_Character, (GUIDSTRING)_Effect);
-
-IF
-StatusRemoved(_Character, "AASIMAR_WINGS_OWNER", _, _)
-AND
-DB_Players((CHARACTER)_Character)
-AND
-GetTemplate(_Character, (CHARACTERROOT)_Template)
-AND
-DB_AasimarCurrentWings(_Template, _CurrentWings)
-THEN
-AddCustomVisualOverride((CHARACTER)_Character, (GUIDSTRING)_CurrentWings);
-
-
-//HAS_NO_WINGS_9971c7b5-a3b4-426b-bb28-86fd9a08c23c
-
-//HAS_WINGS_040eaa11-8ec0-41f1-bafb-4d0ce2bc3f52
-
+//END_REGION
 
 EXITSECTION
 
