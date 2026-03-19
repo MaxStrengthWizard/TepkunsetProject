@@ -214,7 +214,7 @@
   <content contentuid="hf4ec8b07gbb48g860ag940cg471cbb0c435a" version="1">Celestial Resistance</content>
   <content contentuid="h163a49eegcf6bgc3f9g2e3egeb269dc99438" version="1">You have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic and Radiant damage.</content>
   <content contentuid="h25b023fcg8a95gd791g3c80gc964b39db3f4" version="1">Healing Hands</content>
-  <content contentuid="h765c27bfg2f70g3d55gc120g2dd9623fb680" version="1">You touch a creature to heal for [1] plus your &lt;LSTag Tooltip="ProficiencyBonus"&gt;Proficiency Bonus&lt;/LSTag&gt;.</content>
+  <content contentuid="h765c27bfg2f70g3d55gc120g2dd9623fb680" version="1">You touch a creature to heal for [1].</content>
   <content contentuid="h9f7195bega6ecg2f7cg3468g8236a0428e46" version="2">Glowing Eyes A</content>
   <content contentuid="h1556111ag050eg0160g1f7bg473b4a375351" version="1">Default Eyes</content>
   <content contentuid="h06c7db97g6ffag7cb1ga150g010f40cc907b" version="1">Glowing Eyes</content>
