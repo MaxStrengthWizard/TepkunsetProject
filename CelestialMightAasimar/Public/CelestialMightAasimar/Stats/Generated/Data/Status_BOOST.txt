@@ -8,7 +8,7 @@ data "Icon" "Aasimar_Wings"
 data "StackId" "AASIMAR_WINGS_OWNER"
 data "MeshEffect" "FadeIn:0;FadeOut:0;V:[d0a54e87006d442cb74eed26321690c2,d9b8b45ac0b44943b6d0f66379b42a49,d7f2d4497de14f3ca9cd39262253589b,96ecc91a500b4f3d9edfcdd821bd6511];VI:[0,1,2,3];S:[edda91cdd2be3296087c45477f36daaa,957ba88314f85b2d6d5feb9c9ed61584,044ab023707677e673c2d0f26fca0776,e7b96b01af9c835be6b5f1a75f7b538b];SI:[0,1,2,3]"
 data "Boosts" "UnlockSpell(Projectile_Fly_Aasimar);UnlockInterrupt(Interrupt_Revelation_Radiant);UnlockInterrupt(Interrupt_Revelation_Radiant_Critical)"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "StatusPropertyFlags" "DisableCombatlog"
 data "StatusEffect" "17986105-c51b-4dff-abd3-6c257a9ab556"
 
 new entry "AASIMAR_RADIANCE_AURA"
