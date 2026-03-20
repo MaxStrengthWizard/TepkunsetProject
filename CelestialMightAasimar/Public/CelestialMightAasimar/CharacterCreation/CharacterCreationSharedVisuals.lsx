@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="CharacterCreationSharedVisuals">
+        <node id="root">
+            <children>
+                <node id="CharacterCreationSharedVisual">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0cfa6d2df1774d9fb382527060dcd2b10619" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Tail"/>
+                    <attribute id="UUID" type="guid" value="94f5d7b2-0705-46b4-99d0-02695d346be7"/>
+                    <attribute id="VisualResource" type="guid" value="d0a54e87-006d-442c-b74e-ed26321690c2"/>
+                </node>
+                <node id="CharacterCreationSharedVisual">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0cfa6d2df1774d9fb382527060dcd2b10619" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Tail"/>
+                    <attribute id="UUID" type="guid" value="3f91df22-b72a-43e8-8922-fe66888063f2"/>
+                    <attribute id="VisualResource" type="guid" value="d9b8b45a-c0b4-4943-b6d0-f66379b42a49"/>
+                </node>
+                <node id="CharacterCreationSharedVisual">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0cfa6d2df1774d9fb382527060dcd2b10619" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Tail"/>
+                    <attribute id="UUID" type="guid" value="f5aa729f-2f21-4809-a204-da786c958127"/>
+                    <attribute id="VisualResource" type="guid" value="d7f2d449-7de1-4f3c-a9cd-39262253589b"/>
+                </node>
+                <node id="CharacterCreationSharedVisual">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0cfa6d2df1774d9fb382527060dcd2b10619" version="1"/>
+                    <attribute id="SlotName" type="FixedString" value="Tail"/>
+                    <attribute id="UUID" type="guid" value="3f76f182-8546-4bff-9fe2-460e6a9e9284"/>
+                    <attribute id="VisualResource" type="guid" value="96ecc91a-500b-4f3d-9edf-cdd821bd6511"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

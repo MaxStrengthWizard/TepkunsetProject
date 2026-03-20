@@ -12,6 +12,6 @@ data "DisplayName" "h8e9f4789gbb1fg2c06g1c69g8e63f44f8e59;1"
 data "Description" "h65db4c24ga238g0a44gf0a1g2cd2fd79dede;1"
 data "DescriptionParams" "DealDamage(ProficiencyBonus,Radiant);DealDamage(ProficiencyBonus,Necrotic)"
 data "Icon" "Aasimar_Revelation"
-data "Properties" "ForceShowInCC;Highlighted"
+data "Properties" "IsHidden"
 data "Boosts" "ActionResource(Interrupt_Revelation_Charge,1,0)"
 

@@ -2,10 +2,10 @@ Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
 //REGION Store Player root templates with associated wing visuals
-DB_AasimarPlayersGoldWings((CHARACTERROOT)Aasimar_Female_Player_da740da3-5b1e-4eea-a2a8-49f45fb7477b, (GUIDSTRING)d0a54e87-006d-442c-b74e-ed26321690c2);
-DB_AasimarPlayersGoldWings((CHARACTERROOT)Aasimar_Female_Strong_Player_1638a96f-373d-410a-b731-22f164cd3466, (GUIDSTRING)d9b8b45a-c0b4-4943-b6d0-f66379b42a49);
-DB_AasimarPlayersGoldWings((CHARACTERROOT)Aasimar_Male_Player_d625305f-bb78-45d3-a8a1-8a4d5408df1e, (GUIDSTRING)d7f2d449-7de1-4f3c-a9cd-39262253589b);
-DB_AasimarPlayersGoldWings((CHARACTERROOT)Aasimar_Male_Strong_Player_2d6ec6fc-d5e1-462e-ba41-e98f5c43fd61, (GUIDSTRING)96ecc91a-500b-4f3d-9edf-cdd821bd6511);
+DB_AasimarPlayersGoldWings((CHARACTERROOT)Aasimar_Female_Player_dd0cb8a2-b46e-4c4a-b6a5-063e0f5c7469, (GUIDSTRING)94f5d7b2-0705-46b4-99d0-02695d346be7);
+DB_AasimarPlayersGoldWings((CHARACTERROOT)Aasimar_Female_Strong_Player_1638a96f-373d-410a-b731-22f164cd3466, (GUIDSTRING)3f91df22-b72a-43e8-8922-fe66888063f2);
+DB_AasimarPlayersGoldWings((CHARACTERROOT)Aasimar_Male_Player_d625305f-bb78-45d3-a8a1-8a4d5408df1e, (GUIDSTRING)f5aa729f-2f21-4809-a204-da786c958127);
+DB_AasimarPlayersGoldWings((CHARACTERROOT)Aasimar_Male_Strong_Player_2d6ec6fc-d5e1-462e-ba41-e98f5c43fd61, (GUIDSTRING)3f76f182-8546-4bff-9fe2-460e6a9e9284);
 //END_REGION
 
 KBSECTION
@@ -19,6 +19,7 @@ GetTemplate(_Character, (CHARACTERROOT)_Template)
 AND
 DB_AasimarPlayersGoldWings(_Template, _Effect)
 THEN
+ApplyStatus(_Character, "BLESS", -1.0);
 AddCustomVisualOverride((CHARACTER)_Character, (GUIDSTRING)_Effect);
 
 IF
@@ -30,6 +31,7 @@ GetTemplate(_Character, (CHARACTERROOT)_Template)
 AND
 DB_AasimarPlayersGoldWings(_Template, _Effect)
 THEN
+RemoveStatus(_Character, "BLESS");
 RemoveCustomVisualOvirride((CHARACTER)_Character, (GUIDSTRING)_Effect);
 //END_REGION
 

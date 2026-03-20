@@ -21,7 +21,7 @@
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
 					<attribute id="SkeletonResource" type="FixedString" value="9619f1d7-0436-1c5c-62a0-1726b10cea4b" />
 					<attribute id="SkeletonSlot" type="FixedString" value="Wings" />
-					<attribute id="Slot" type="FixedString" value="Unassigned" />
+					<attribute id="Slot" type="FixedString" value="NakedBody" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="SourceFile" type="LSString" value="Generated/Public/SharedDev/Assets/Characters/_Models/_Creatures/Deva/Deva_Selune/Resources/DEVA_HUM_F_Wings.GR2" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />

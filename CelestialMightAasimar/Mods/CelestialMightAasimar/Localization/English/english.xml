@@ -191,18 +191,23 @@
   <content contentuid="h08b0f963g97dcg51dcgbcdfg20818df60b35" version="1">Head 7</content>
   <content contentuid="hcd20662agb3fcg53acgca2agf8b40321c4bb" version="1">Celestial Revelation</content>
   <content contentuid="h9a54ffb1g3365gfb53g90deg5b8b63664206" version="1">Unleash your celestial power with one of three transformations.</content>
+  <content contentuid="h23c8425670774559a85e7b55efbd49513b84" version="1">Undergo a transformation to unleash the celestial energy within yourself. Once per turn before the transformation ends, you can deal an additional [1] or [2] with an attack or spell depending on the revelation chosen.</content>
   <content contentuid="h7992312fga293g775cge97bg491e8b0da29d" version="1">Heavenly Wings</content>
-  <content contentuid="hcf33cb9fgbfb4g5ab5gda84g279f3d187fd2" version="1">Spectral wings sprout from your back temporarily, granting flight.</content>
+  <content contentuid="hcf33cb9fgbfb4g5ab5gda84g279f3d187fd2" version="1">Spectral wings sprout from your back temporarily, granting you &lt;LSTag Type="Spell" Tooltip="Projectile_Fly_Aasimar"&gt;flight&lt;/LSTag&gt;. Once on each of your turns, you can deal an extra [1] when you deal damage with an attack or a spell.</content>
   <content contentuid="ha8258b08gb093gd976gc8c4g0b2256009af6" version="1">Heavenly Wings</content>
   <content contentuid="h3e15e62ag351fg8642g0249g64fac3bb997d" version="1">Spectral wings sprout from your back temporarily, granting flight.</content>
   <content contentuid="h16ff007agc8e5g1460ge6bagad83a17cf3c6" version="1">Inner Radiance</content>
   <content contentuid="h0ad06cc7g7fd5gee94ge68ag322217f47c2e" version="1">Searing light temporarily radiates from you. For the duration, nearby enemies take [1] per turn.</content>
+  <content contentuid="h3f9c29704f644f8fa7af4e5e54d625c2788b" version="1">Searing light temporarily radiates from your eyes and mouth, shedding a bright light for [1]. At the end of each of your turns, each creature within [1] of you takes [2].&lt;br&gt;&lt;br&gt;Once on each of your turns, you can deal an extra [2] when you deal damage with an attack or a spell.</content>
   <content contentuid="he4fdb4eag8159g33d2g28fbg084b08c991b5" version="1">Inner Radiance</content>
   <content contentuid="h1075a1d0gabb5g67e8gce4cg9b26d2a50248" version="1">Searing light temporarily radiates from you. For the duration, nearby enemies take [1] per turn.</content>
+  <content contentuid="h519a84daaa0b4325b536aeb7d08a055cbf2e" version="1">Searing light radiates from you, lighting up the darkness and dealing [1] to any creature within [2] of you at the end of your turns.</content>
   <content contentuid="h8dbd870fgb3fbg4d26g909fg64ed22e6934d" version="1">Inner Radiance</content>
   <content contentuid="heabcc888g5554g9943gf0beg7e0bafc93177" version="1">Searing light temporarily radiates from you. For the duration, nearby enemies take [1] per turn.</content>
+  <content contentuid="h0ba307db8b994135b72f605d7c349e5c48ca" version="1">Searing light radiates from you, lighting up the darkness and dealing [1] to any creature within [2] of you at the end of your turns.</content>
   <content contentuid="h37bb7092g98d2gb21bg2c48gf7a30cf32074" version="1">Necrotic Shroud</content>
   <content contentuid="hb2bd7476g0f81g3dceg7191g33c9c6d05800" version="1">Enemies within [1] of the aasimar become &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
+  <content contentuid="h0537e2ee7b8c4b1bb3e2e951f8887959fa18" version="1">Your eyes briefly become pools of darkness, and flightless wings sprout from your back. Enemies within [1] must succeed a Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or become &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Once on each of your turns, you can deal an extra [2] when you deal damage with an attack or a spell.</content>
   <content contentuid="h7ea0632dg738bgc4a3g605bg71f7efc1e939" version="1">Necrotic Shroud</content>
   <content contentuid="hb0ac953dg4af5g2172g5ff7g633f22600c9a" version="1">Enemies within [1] of the aasimar become &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
   <content contentuid="hcbff9a3cgd27bgb506g729dgfaf1650ca6c5" version="1">Necrotic Shroud</content>
@@ -215,6 +220,7 @@
   <content contentuid="h163a49eegcf6bgc3f9g2e3egeb269dc99438" version="1">You have &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Necrotic and Radiant damage.</content>
   <content contentuid="h25b023fcg8a95gd791g3c80gc964b39db3f4" version="1">Healing Hands</content>
   <content contentuid="h765c27bfg2f70g3d55gc120g2dd9623fb680" version="1">You touch a creature to heal for [1].</content>
+  <content contentuid="h65b347754b8e42b4b64bfc1ba1824068e8ge" version="1">Imbue your touch with celestial healing energy to restore [1].</content>
   <content contentuid="h9f7195bega6ecg2f7cg3468g8236a0428e46" version="2">Glowing Eyes A</content>
   <content contentuid="h1556111ag050eg0160g1f7bg473b4a375351" version="1">Default Eyes</content>
   <content contentuid="h06c7db97g6ffag7cb1ga150g010f40cc907b" version="1">Glowing Eyes</content>
@@ -230,6 +236,7 @@
   <content contentuid="h0a11161cg2b82gbf5fg7560g9f4675eb01bf" version="1">Glowing Eyes F</content>
   <content contentuid="hc49a7eb1g2518g1f75gb1c3gd3771db4d36d" version="1">Heavenly Wings</content>
   <content contentuid="h830b8371gc3a8g88c2gb47fg947ea0f1c55d" version="1">Spectral wings sprout from your back temporarily, granting flight.</content>
+  <content contentuid="hf43c82efc8f9449a9514189d4b756bd25aeg" version="1">Has the ability to &lt;LSTag Type="Spell" Tooltip="Projectile_Fly_Aasimar"&gt;fly&lt;/LSTag&gt; on a pair of spectral wings and deal an additional [1] on your attacks or spells once per turn for the duration of the transformation.</content>
   <content contentuid="h39e0e34dg8de0ge968gec6cgdb092cbaabf2" version="4">Heavenly Wings</content>
   <content contentuid="h031cc75fg2d36geb00gfc0bg0007bbe3bc18" version="4">Spectral wings sprout from your back.</content>
   <content contentuid="h89dbcda0ga850g1664g0be4gd8ecbfa9bdca" version="1">Heavenly Wings</content>
@@ -244,5 +251,7 @@
   <content contentuid="h3161a5597caf4eaa960739a82cf9aff398bc" version="1">Deal an additional [1] per turn.</content>
   <content contentuid="h40a69736440c471b8d3faf80aec618ef8d87" version="1">Dream Visitor</content>
   <content contentuid="hb80cd039993d49b196e7500136da8a768962" version="1">Dream Visitor</content>
-  <content contentuid="h157a3112db7c4560920cb2fb7605ae00d1ge" version="1">None</content>
+  <content contentuid="h0cfa6d2df1774d9fb382527060dcd2b10619" version="1">Radiant Wings</content>
+  <content contentuid="h49a7422818974fb8aabde2c917e75107g1gb" version="1">Dismiss Transformation</content>
+  <content contentuid="h3c20bcc12c1041ddbc48234ca7b591f21975" version="1">Dismiss your celestial transformation and return to your normal form.</content>
 </contentList>
