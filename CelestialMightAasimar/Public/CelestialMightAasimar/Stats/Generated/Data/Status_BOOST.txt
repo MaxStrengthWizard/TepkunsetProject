@@ -34,43 +34,25 @@ data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat"
 data "OnApplyFunctors" "ApplyStatus(AASIMAR_RADIANCE_AURA_VFX,100,-1)"
 data "OnRemoveFunctors" "RemoveStatus(AASIMAR_RADIANCE_AURA_VFX)"
 data "StatusGroups" "SG_RemoveOnRespec;SG_Light"
-
-
-
-data "StatusEffect" "ccd959f0-23e3-4617-a688-47ea7bb536b7"
-
-
-
-data "StatusEffect" "c3c23ac3-9f0f-435f-845a-2cb6b5b9b2c5"
-
-
-
-
-
-
-
-
-
-
-
-
-
+data "StatusEffect" "dd02e9e1-8ab7-4da0-9097-26fd886c06d4"
 
 new entry "AASIMAR_RADIANCE"
 type "StatusData"
 data "StatusType" "BOOST"
 data "DisplayName" "h8dbd870fgb3fbg4d26g909fg64ed22e6934d;1"
 data "Description" "h0ba307db8b994135b72f605d7c349e5c48ca;1"
-data "DescriptionParams" "DealDamage(ProficiencyBonus,Radiant);Distance(3)"
+data "DescriptionParams" "DealDamage(ProficiencyBonus,Radiant)"
 data "Icon" "Aasimar_Radiance"
+data "SoundStart" "Spell_Status_MoonBeam_Enter"
+data "SoundLoop" "Spell_Status_MoonBeam_MO"
+data "SoundStop" "Spell_Status_MoonBeam_MO_Stop"
 data "StackId" "AASIMAR_RADIANCE"
-data "StatusPropertyFlags" "TickingWithSource"
-data "OnApplySuccess" "IF(not HasStatus('AASIMAR_RADIANCE_DAMAGE_RECEIVED')):DealDamage(ProficiencyBonus,Radiant,Magical);IF(not HasStatus('AASIMAR_RADIANCE_DAMAGE_RECEIVED')):ApplyStatus(AASIMAR_RADIANCE_DAMAGE_RECEIVED,100,1)"
-data "OnApplyFail" "IF(not HasStatus('AASIMAR_RADIANCE_DAMAGE_RECEIVED')):DealDamage(ProficiencyBonus,Radiant,Magical);IF(not HasStatus('AASIMAR_RADIANCE_DAMAGE_RECEIVED')):ApplyStatus(AASIMAR_RADIANCE_DAMAGE_RECEIVED,100,1)"
-data "OnTickSuccess" "IF(not HasStatus('AASIMAR_RADIANCE_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'AASIMAR_RADIANCE_DAMAGE_RECEIVED', 0.1)):DealDamage(ProficiencyBonus,Radiant,Magical);ApplyStatus(AASIMAR_RADIANCE_DAMAGE_RECEIVED,100,1)"
-data "OnTickFail" "IF(not HasStatus('AASIMAR_RADIANCE_DAMAGE_RECEIVED') or StatusDurationLessThan(context.Source, 'AASIMAR_RADIANCE_DAMAGE_RECEIVED', 0.1)):DealDamage(ProficiencyBonus,Radiant,Magical);ApplyStatus(AASIMAR_RADIANCE_DAMAGE_RECEIVED,100,1)"
-data "StatusEffect" "cbb2672a-9aeb-40ed-a252-f56fd8424965"
-data "StatusEffectOnTurn" "04546e68-7dba-4d99-8366-284b5fcf9cd0"
+data "TickType" "EndTurn"
+data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat;TickingWithSource"
+data "OnApplyFunctors" "IF(not HasStatus('AASIMAR_RADIANCE_DAMAGE_RECEIVED')):DealDamage(Cause.ProficiencyBonus,Radiant,Magical);IF(not HasStatus('AASIMAR_RADIANCE_DAMAGE_RECEIVED')):ApplyStatus(AASIMAR_RADIANCE_DAMAGE_RECEIVED,100,1)"
+data "TickFunctors" "IF(not HasStatus('AASIMAR_RADIANCE_DAMAGE_RECEIVED')):DealDamage(Cause.ProficiencyBonus,Radiant,Magical);ApplyStatus(AASIMAR_RADIANCE_DAMAGE_RECEIVED,100,1)"
+data "ApplyEffect" "62710804-ff29-4936-9d45-0e6a44372526"
+data "StatusEffect" "73f8b212-1a39-4214-8a32-b5e1427ec860"
 
 new entry "AASIMAR_RADIANCE_DAMAGE_RECEIVED"
 type "StatusData"
@@ -81,15 +63,18 @@ data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndi
 new entry "AASIMAR_NECROTIC_SHROUD_AURA"
 type "StatusData"
 data "StatusType" "BOOST"
-using "AURA_OF_TERROR"
 data "DisplayName" "h7ea0632dg738bgc4a3g605bg71f7efc1e939;1"
 data "Description" "hb0ac953dg4af5g2172g5ff7g633f22600c9a;1"
 data "DescriptionParams" "Distance(3)"
 data "Icon" "Aasimar_Shroud"
+data "FormatColor" "Source"
+data "SoundLoop" "Spell_Status_AuraOfTerror_Start"
+data "SoundStop" "Spell_Status_AuraOfTerror_End"
 data "StackId" "AASIMAR_NECROTIC_SHROUD_AURA"
 data "AuraRadius" "3"
 data "AuraStatuses" "IF(Enemy() and not IsImmuneToStatus('SG_Frightened')):ApplyStatus(AASIMAR_SHROUD_FRIGHTEN)"
-data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat;DisableOverhead;DisablePortraitIndicator"
+data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat;IgnoreResting"
+data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusEffect" "cc9ae800-7cf8-495f-9c2e-22f765c1e737"
 
 new entry "AASIMAR_SHROUD_FRIGHTEN"
@@ -101,6 +86,8 @@ data "Description" "hdc660e51ga1e5g3674gff09ga474b192d63c;1"
 data "DescriptionParams" "Distance(3)"
 data "Icon" "Aasimar_Shroud"
 data "StackId" "AASIMAR_SHROUD_FRIGHTEN"
+data "StackType" "Ignore"
+data "TickType" "StartTurn"
 data "OnTickRoll" "not SavingThrow(Ability.Charisma, SourceSpellDC(), AdvantageOnFrightened(), DisadvantageOnFrightened())"
 data "OnTickSuccess" "ApplyStatus(FRIGHTENED,100,1)"
 data "StatusEffect" "d0c3a6f3-b954-4e8a-b9d2-8dfc66be24ab"
@@ -112,6 +99,7 @@ data "DisplayName" "hcbff9a3cgd27bgb506g729dgfaf1650ca6c5;1"
 data "Description" "h3161a5597caf4eaa960739a82cf9aff398bc;1"
 data "DescriptionParams" "DealDamage(ProficiencyBonus,Necrotic)"
 data "Icon" "Aasimar_Shroud"
+data "FormatColor" "Source"
 data "StackId" "AASIMAR_NECROTIC_SHROUD"
 data "Boosts" "UnlockSpell(Shout_Aasimar_Celestial_Revelation_Dismiss);UnlockInterrupt(Interrupt_Revelation_Necrotic);UnlockInterrupt(Interrupt_Revelation_Necrotic_Critical)"
 data "StatusGroups" "SG_RemoveOnRespec"

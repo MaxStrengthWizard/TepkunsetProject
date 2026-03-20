@@ -7,3 +7,9 @@ data "Icon" "Aasimar_Wings"
 data "Boosts" "Attribute(InventoryBound)"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 
+new entry "AASIMAR_RADIANCE_AURA_VFX"
+type "StatusData"
+data "StatusType" "EFFECT"
+using "_PASSIVES"
+data "StatusEffect" "4106bf8a-e21b-4585-b692-737d1fd38d2c"
+

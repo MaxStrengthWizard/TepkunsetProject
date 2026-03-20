@@ -204,7 +204,7 @@
   <content contentuid="h519a84daaa0b4325b536aeb7d08a055cbf2e" version="1">Searing light radiates from you, lighting up the darkness and dealing [1] to any creature within [2] of you at the end of your turns.</content>
   <content contentuid="h8dbd870fgb3fbg4d26g909fg64ed22e6934d" version="1">Inner Radiance</content>
   <content contentuid="heabcc888g5554g9943gf0beg7e0bafc93177" version="1">Searing light temporarily radiates from you. For the duration, nearby enemies take [1] per turn.</content>
-  <content contentuid="h0ba307db8b994135b72f605d7c349e5c48ca" version="1">Searing light radiates from you, lighting up the darkness and dealing [1] to any creature within [2] of you at the end of your turns.</content>
+  <content contentuid="h0ba307db8b994135b72f605d7c349e5c48ca" version="1">Creature is engulfed by a consuming radiance that deal [1] per turn.</content>
   <content contentuid="h37bb7092g98d2gb21bg2c48gf7a30cf32074" version="1">Necrotic Shroud</content>
   <content contentuid="hb2bd7476g0f81g3dceg7191g33c9c6d05800" version="1">Enemies within [1] of the aasimar become &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
   <content contentuid="h0537e2ee7b8c4b1bb3e2e951f8887959fa18" version="1">Your eyes briefly become pools of darkness, and flightless wings sprout from your back. Enemies within [1] must succeed a Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt; or become &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.&lt;br&gt;&lt;br&gt;Once on each of your turns, you can deal an extra [2] when you deal damage with an attack or a spell.</content>
@@ -254,4 +254,7 @@
   <content contentuid="h0cfa6d2df1774d9fb382527060dcd2b10619" version="1">Radiant Wings</content>
   <content contentuid="h49a7422818974fb8aabde2c917e75107g1gb" version="1">Dismiss Transformation</content>
   <content contentuid="h3c20bcc12c1041ddbc48234ca7b591f21975" version="1">Dismiss your celestial transformation and return to your normal form.</content>
+  <content contentuid="hb9c65625d6c5405e937e561afcdfd6ed46fa" version="1">Can cause enemies within [1] to become &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
+  <content contentuid="h967e23dc5f244c4689b7523fb9f5a937cfbf" version="1">Creature is engulfed by a terrifying aura. It will become &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; unless it succeeds a Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
+  <content contentuid="hf0093714b9904b9da90c9061013a1338a7b7" version="1">Deal an additional [2] once per turn on hit for the duration of the transformation.</content>
 </contentList>
