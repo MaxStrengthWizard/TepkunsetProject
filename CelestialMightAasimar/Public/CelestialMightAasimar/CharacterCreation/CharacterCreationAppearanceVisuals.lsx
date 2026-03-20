@@ -5,15 +5,6 @@
         <node id="root">
             <children>
                 <node id="CharacterCreationAppearanceVisual">
-                    <attribute id="BodyShape" type="uint8" value="2"/>
-                    <attribute id="BodyType" type="uint8" value="2"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h157a3112db7c4560920cb2fb7605ae00d1ge" version="1"/>
-                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
-                    <attribute id="SlotName" type="FixedString" value="Tail"/>
-                    <attribute id="UUID" type="guid" value="9fb80973-fde6-4332-ab05-50f5fb719848"/>
-                    <attribute id="VisualResource" type="guid" value="00000000-0000-0000-0000-000000000000"/>
-                </node>
-                <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="1"/>
                     <attribute id="BodyType" type="uint8" value="0"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="h2c68f19dg7567g90c5g976bg76711f641c03" version="1"/>
