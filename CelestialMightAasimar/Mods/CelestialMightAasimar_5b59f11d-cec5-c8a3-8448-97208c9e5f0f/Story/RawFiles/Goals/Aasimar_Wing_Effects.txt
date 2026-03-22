@@ -6,6 +6,11 @@ DB_AasimarPlayersGoldWings((CHARACTERROOT)Aasimar_Female_Player_dd0cb8a2-b46e-4c
 DB_AasimarPlayersGoldWings((CHARACTERROOT)Aasimar_Female_Strong_Player_1638a96f-373d-410a-b731-22f164cd3466, (GUIDSTRING)3f91df22-b72a-43e8-8922-fe66888063f2);
 DB_AasimarPlayersGoldWings((CHARACTERROOT)Aasimar_Male_Player_d625305f-bb78-45d3-a8a1-8a4d5408df1e, (GUIDSTRING)f5aa729f-2f21-4809-a204-da786c958127);
 DB_AasimarPlayersGoldWings((CHARACTERROOT)Aasimar_Male_Strong_Player_2d6ec6fc-d5e1-462e-ba41-e98f5c43fd61, (GUIDSTRING)3f76f182-8546-4bff-9fe2-460e6a9e9284);
+
+DB_AasimarPlayersShadowWings((CHARACTERROOT)Aasimar_Female_Player_dd0cb8a2-b46e-4c4a-b6a5-063e0f5c7469, (GUIDSTRING)470beb40-ecdf-4752-874e-f16122c8c940);
+DB_AasimarPlayersShadowWings((CHARACTERROOT)Aasimar_Female_Strong_Player_1638a96f-373d-410a-b731-22f164cd3466, (GUIDSTRING)46c7fdb0-95df-4482-8df6-4decdb00f294);
+DB_AasimarPlayersShadowWings((CHARACTERROOT)Aasimar_Male_Player_d625305f-bb78-45d3-a8a1-8a4d5408df1e, (GUIDSTRING)dc04f0e9-64de-4ef1-b38d-869d46e1a107);
+DB_AasimarPlayersShadowWings((CHARACTERROOT)Aasimar_Male_Strong_Player_2d6ec6fc-d5e1-462e-ba41-e98f5c43fd61, (GUIDSTRING)7dcfdcbc-529f-479d-8410-818ddc3fac33);
 //END_REGION
 
 KBSECTION
@@ -19,7 +24,6 @@ GetTemplate(_Character, (CHARACTERROOT)_Template)
 AND
 DB_AasimarPlayersGoldWings(_Template, _Effect)
 THEN
-ApplyStatus(_Character, "BLESS", -1.0);
 AddCustomVisualOverride((CHARACTER)_Character, (GUIDSTRING)_Effect);
 
 IF
@@ -31,7 +35,30 @@ GetTemplate(_Character, (CHARACTERROOT)_Template)
 AND
 DB_AasimarPlayersGoldWings(_Template, _Effect)
 THEN
-RemoveStatus(_Character, "BLESS");
+RemoveCustomVisualOvirride((CHARACTER)_Character, (GUIDSTRING)_Effect);
+//END_REGION
+
+//REGION Necrotic Shroud
+IF
+StatusApplied(_Character, "AASIMAR_NECROTIC_SHROUD", _, _)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+GetTemplate(_Character, (CHARACTERROOT)_Template)
+AND
+DB_AasimarPlayersShadowWings(_Template, _Effect)
+THEN
+AddCustomVisualOverride((CHARACTER)_Character, (GUIDSTRING)_Effect);
+
+IF
+StatusRemoved(_Character, "AASIMAR_NECROTIC_SHROUD", _, _)
+AND
+DB_Players((CHARACTER)_Character)
+AND
+GetTemplate(_Character, (CHARACTERROOT)_Template)
+AND
+DB_AasimarPlayersShadowWings(_Template, _Effect)
+THEN
 RemoveCustomVisualOvirride((CHARACTER)_Character, (GUIDSTRING)_Effect);
 //END_REGION
 

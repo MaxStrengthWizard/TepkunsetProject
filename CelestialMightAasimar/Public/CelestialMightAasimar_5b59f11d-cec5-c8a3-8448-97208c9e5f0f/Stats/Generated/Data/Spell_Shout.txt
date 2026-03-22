@@ -15,7 +15,7 @@ type "SpellData"
 data "SpellType" "Shout"
 data "SpellProperties" "RemoveStatus(AASIMAR_WINGS_OWNER);RemoveStatus(AASIMAR_RADIANCE_AURA);RemoveStatus(AASIMAR_NECROTIC_SHROUD_DAMAGE)"
 data "TargetConditions" "Self()"
-data "Icon" "Action_Aasimar_Transformation_Dismiss"
+data "Icon" "unknown"
 data "DisplayName" "h49a7422818974fb8aabde2c917e75107g1gb;1"
 data "Description" "h3c20bcc12c1041ddbc48234ca7b591f21975;1"
 data "TooltipStatusApply" "RemoveStatus(AASIMAR_WINGS_OWNER);RemoveStatus(AASIMAR_RADIANCE_AURA);RemoveStatus(AASIMAR_NECROTIC_SHROUD_DAMAGE)"
@@ -29,6 +29,9 @@ data "SpellFlags" "Temporary"
 data "SpellActionType" "Dismiss"
 data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
 data "CastEffect" "f9a05071-98c2-401b-bf12-eb8ae45fecac"
+
+
+
 
 new entry "Shout_Aasimar_Wings"
 type "SpellData"
@@ -50,11 +53,25 @@ data "CastTextEvent" "Cast"
 data "UseCosts" "BonusActionPoint:1"
 data "SpellAnimation" "2f0d97b9-4a1f-4bf3-a3c2-32efb563d601,,;,,;70ddfd63-fc3f-45f4-b067-75389b85d540,,;90face3a-6607-4b3d-87e6-c6090b069160,,;57e449b3-b712-4508-afcf-f2e91dc473f6,,;,,;84f3727f-aabc-4e34-bf31-c6cd0160bec9,,;,,;,,"
 data "VerbalIntent" "Buff"
+// Nightsong_LunarBolt_PrepareEffect
 data "PrepareEffect" "05e14f13-5fbc-4c89-9d8a-e4be7e111b06"
+// DestructiveWave_Radiant_CastEffect
 data "CastEffect" "9f632984-2fe6-463c-9cbf-4a927ee5dc5e"
+// RadianceOfTheDawn_TargetEffect
 data "TargetEffect" "78ab57f2-edce-4697-8be4-7bf7c2e76f92"
 data "DamageType" "Radiant"
 data "Sheathing" "DontChange"
+
+
+
+
+
+
+
+
+
+
+
 
 new entry "Shout_Aasimar_Radiance"
 type "SpellData"
@@ -77,24 +94,37 @@ data "CastTextEvent" "Cast"
 data "UseCosts" "BonusActionPoint:1"
 data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;39daf365-ec06-49a8-81f3-9032640699d7,,;5c400e93-0266-499c-a2e1-75d53358460f,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
 data "VerbalIntent" "Buff"
+// Nightsong_LunarBlessing_PrepareEffect
 data "PrepareEffect" "3044bca0-7b0e-4d65-9b15-f586f5d58388"
+// Nightsong_LunarBlessing_CastEffect
 data "CastEffect" "2b656a6d-9180-484f-8a75-c37afb857d97"
 data "DamageType" "Radiant"
 data "Sheathing" "DontChange"
+
+
+
+
+
+
+
+
+
+
+
 
 new entry "Shout_Aasimar_Shroud"
 type "SpellData"
 data "SpellType" "Shout"
 data "SpellContainerID" "Shout_Aasimar_Celestial_Revelation_Container"
 data "Cooldown" "OncePerRest"
-data "SpellProperties" "ApplyStatus(SELF,AASIMAR_NECROTIC_SHROUD_AURA,100,2);ApplyStatus(SELF,AASIMAR_NECROTIC_SHROUD,100,10)"
+data "SpellProperties" "ApplyStatus(SELF,AASIMAR_NECROTIC_SHROUD_AURA,100,1);ApplyStatus(SELF,AASIMAR_NECROTIC_SHROUD,100,10)"
 data "AreaRadius" "3"
 data "TargetConditions" "Self()"
 data "Icon" "Aasimar_Shroud"
 data "DisplayName" "h37bb7092g98d2gb21bg2c48gf7a30cf32074;1"
 data "Description" "h0537e2ee7b8c4b1bb3e2e951f8887959fa18;1"
 data "DescriptionParams" "Distance(3);DealDamage(ProficiencyBonus,Necrotic)"
-data "TooltipStatusApply" "ApplyStatus(AASIMAR_NECROTIC_SHROUD_AURA,100,2)"
+data "TooltipStatusApply" "ApplyStatus(AASIMAR_NECROTIC_SHROUD_AURA,100,1)"
 data "PrepareSound" "Spell_Prepare_Damage_Necrotic_Gen_L1to3"
 data "CastSound" "CrSpell_Cast_AuraOfTerror"
 data "TargetSound" "Spell_Impact_Paladin_OathBreaker_DreadfulAspect_L1to3"
@@ -103,8 +133,12 @@ data "CastTextEvent" "Cast"
 data "UseCosts" "BonusActionPoint:1"
 data "SpellAnimation" "83fb0115-57dd-4cce-ac40-87182b2865e2,,;,,;62e74220-ba87-4fe7-aa99-9d12cab9d654,,;b1f3f86a-a1fc-43f6-8a2b-0110a9f99ead,,;42014429-21fb-412d-bba6-0f8216f5e502,,;,,;43fa5e31-ad7e-47a9-9ca2-f6d40ba8e1cf,,;,,;,,"
 data "VerbalIntent" "Control"
-data "PrepareEffect" "f4d1d3da-0193-4f35-bd70-44f3a889810c"
+// Fear_PrepareEffect
+data "PrepareEffect" "23e86239-d81d-4bad-b618-8d12a2a9258a"
+// DestructiveWave_Necrotic_CastEffect
 data "CastEffect" "eff14e27-89fd-4e98-a479-dceb59d82aae"
+// Paladin_Target_Debuff_TargetEffect
+data "TargetEffect" "68ad05e0-ad4d-48cf-8b19-84434100711a"
 data "DamageType" "Necrotic"
 data "Sheathing" "DontChange"
 

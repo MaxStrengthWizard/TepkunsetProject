@@ -12,8 +12,19 @@ data "SoundStop" "Spell_Status_Fly_MO_Stop"
 data "StackId" "AASIMAR_WINGS_OWNER"
 data "Boosts" "Attribute(Floating);UnlockSpell(Projectile_Fly_Aasimar);UnlockSpell(Shout_Aasimar_Celestial_Revelation_Dismiss);UnlockInterrupt(Interrupt_Revelation_Radiant);UnlockInterrupt(Interrupt_Revelation_Radiant_Critical)"
 data "StatusGroups" "SG_RemoveOnRespec"
+// FLY_StatusEffect
 data "StatusEffect" "70e3142f-6fde-4718-815f-a419e6bfaa23"
-data "DynamicAnimationTag" "be59efb2-a126-4dc2-a69b-c4cfd0de2856"
+//data "DynamicAnimationTag" "be59efb2-a126-4dc2-a69b-c4cfd0de2856"
+
+
+
+
+
+
+
+
+
+
 
 new entry "AASIMAR_RADIANCE_AURA"
 type "StatusData"
@@ -34,6 +45,7 @@ data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat"
 data "OnApplyFunctors" "ApplyStatus(AASIMAR_RADIANCE_AURA_VFX,100,-1)"
 data "OnRemoveFunctors" "RemoveStatus(AASIMAR_RADIANCE_AURA_VFX)"
 data "StatusGroups" "SG_RemoveOnRespec;SG_Light"
+// MOONBEAM_AURA_StatusEffect
 data "StatusEffect" "dd02e9e1-8ab7-4da0-9097-26fd886c06d4"
 
 new entry "AASIMAR_RADIANCE"
@@ -51,7 +63,9 @@ data "TickType" "EndTurn"
 data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat;TickingWithSource"
 data "OnApplyFunctors" "IF(not HasStatus('AASIMAR_RADIANCE_DAMAGE_RECEIVED')):DealDamage(Cause.ProficiencyBonus,Radiant,Magical);IF(not HasStatus('AASIMAR_RADIANCE_DAMAGE_RECEIVED')):ApplyStatus(AASIMAR_RADIANCE_DAMAGE_RECEIVED,100,1)"
 data "TickFunctors" "IF(not HasStatus('AASIMAR_RADIANCE_DAMAGE_RECEIVED')):DealDamage(Cause.ProficiencyBonus,Radiant,Magical);ApplyStatus(AASIMAR_RADIANCE_DAMAGE_RECEIVED,100,1)"
+// MOONBEAM_ApplyEffect
 data "ApplyEffect" "62710804-ff29-4936-9d45-0e6a44372526"
+// MOONBEAM_StatusEffect
 data "StatusEffect" "73f8b212-1a39-4214-8a32-b5e1427ec860"
 
 new entry "AASIMAR_RADIANCE_DAMAGE_RECEIVED"
@@ -59,6 +73,20 @@ type "StatusData"
 data "StatusType" "BOOST"
 data "StackId" "AASIMAR_RADIANCE_DAMAGE_RECEIVED"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 new entry "AASIMAR_NECROTIC_SHROUD_AURA"
 type "StatusData"
@@ -75,12 +103,12 @@ data "AuraRadius" "3"
 data "AuraStatuses" "IF(Enemy() and not IsImmuneToStatus('SG_Frightened')):ApplyStatus(AASIMAR_SHROUD_FRIGHTEN)"
 data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat;IgnoreResting"
 data "StatusGroups" "SG_RemoveOnRespec"
+// ORI_GALE_NECROTICAURA_StatusEffect
 data "StatusEffect" "cc9ae800-7cf8-495f-9c2e-22f765c1e737"
 
 new entry "AASIMAR_SHROUD_FRIGHTEN"
 type "StatusData"
 data "StatusType" "BOOST"
-using "AURA_OF_TERROR_BUFF"
 data "DisplayName" "hcbff9a3cgd27bgb506g729dgfaf1650ca6c5;1"
 data "Description" "hdc660e51ga1e5g3674gff09ga474b192d63c;1"
 data "DescriptionParams" "Distance(3)"
@@ -90,6 +118,8 @@ data "StackType" "Ignore"
 data "TickType" "StartTurn"
 data "OnTickRoll" "not SavingThrow(Ability.Charisma, SourceSpellDC(), AdvantageOnFrightened(), DisadvantageOnFrightened())"
 data "OnTickSuccess" "ApplyStatus(FRIGHTENED,100,1)"
+data "StatusGroups" "SG_RemoveOnRespec"
+// ORI_GALE_AURANECROSIS_StatusEffect
 data "StatusEffect" "d0c3a6f3-b954-4e8a-b9d2-8dfc66be24ab"
 
 new entry "AASIMAR_NECROTIC_SHROUD"
