@@ -22,7 +22,7 @@
           <attribute id="CharacterCreationLevelName" type="FixedString" value="" />
           <attribute id="Description" type="LSString" value="Adds aasimar based on the 2024 DnD Player's Handbook" />
           <attribute id="FileSize" type="uint64" value="1939172" />
-          <attribute id="Folder" type="LSString" value="CelestialMightAasimar" />
+          <attribute id="Folder" type="LSString" value="CelestialMightAasimar_5b59f11d-cec5-c8a3-8448-97208c9e5f0f" />
           <attribute id="LobbyLevelName" type="FixedString" value="" />
           <attribute id="MD5" type="LSString" value="4f6b02ade94d4c30caa10186fb2973ef" />
           <attribute id="MenuLevelName" type="FixedString" value="" />

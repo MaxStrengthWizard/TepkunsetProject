@@ -29,12 +29,12 @@
 					<children>
 						<node id="Objects">
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_Wings.HUM_FS_Wings_Mesh.0" />
-							<attribute id="MaterialID" type="FixedString" value="be16445c-0402-8063-754c-aec38c06d491" />
+							<attribute id="MaterialID" type="FixedString" value="d1747ca6-f7ea-8327-575c-46839a6a80ca" />
 							<attribute id="LOD" type="uint8" value="0" />
 						</node>
 						<node id="Objects">
 							<attribute id="ObjectID" type="FixedString" value="HUM_FS_Wings.HUM_FS_Wings_Attachment_Mesh.1" />
-							<attribute id="MaterialID" type="FixedString" value="be16445c-0402-8063-754c-aec38c06d491" />
+							<attribute id="MaterialID" type="FixedString" value="d1747ca6-f7ea-8327-575c-46839a6a80ca" />
 							<attribute id="LOD" type="uint8" value="0" />
 						</node>
 						<node id="AnimationWaterfall">

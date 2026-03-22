@@ -5,14 +5,14 @@
 		<node id="VisualBank">
 			<children>
 				<node id="Resource">
-					<attribute id="ID" type="FixedString" value="7ac44e17-3358-408b-9d26-3222617e252d" />
-					<attribute id="Name" type="LSString" value="HUM_MS_AAS_Wings" />
-					<attribute id="SourceFile" type="LSString" value="Generated/Public/CelestialMightAasimar/HUM_MS_AAS_Wings.GR2" />
+					<attribute id="ID" type="FixedString" value="f620ee1d-c763-4e2d-a560-6c16fed829cb" />
+					<attribute id="Name" type="LSString" value="HUM_MS_AAS_Wings_Silver" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/CelestialMightAasimar_5b59f11d-cec5-c8a3-8448-97208c9e5f0f/Wings/HUM_MS_AAS_Wings.GR2" />
 					<attribute id="Slot" type="FixedString" value="Cloak" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
 					<attribute id="AttachBone" type="FixedString" value="" />
-					<attribute id="Template" type="FixedString" value="Generated/Public/CelestialMightAasimar/HUM_MS_AAS_Wings.Dummy_Root.0" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/CelestialMightAasimar_5b59f11d-cec5-c8a3-8448-97208c9e5f0f/Wings/HUM_MS_AAS_Wings.Dummy_Root.0" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="SkeletonResource" type="FixedString" value="3ab16354-81a3-a5af-8b72-e7f3011deb7b" />
@@ -29,12 +29,12 @@
 					<children>
 						<node id="Objects">
 							<attribute id="ObjectID" type="FixedString" value="HUM_MS_Wings.HUM_FS_Wings_Mesh.0" />
-							<attribute id="MaterialID" type="FixedString" value="be16445c-0402-8063-754c-aec38c06d491" />
+							<attribute id="MaterialID" type="FixedString" value="b76cd891-dbdf-ca16-0bee-bbeabe89b9b0" />
 							<attribute id="LOD" type="uint8" value="0" />
 						</node>
 						<node id="Objects">
 							<attribute id="ObjectID" type="FixedString" value="HUM_MS_Wings.HUM_FS_Wings_Attachment_Mesh.1" />
-							<attribute id="MaterialID" type="FixedString" value="be16445c-0402-8063-754c-aec38c06d491" />
+							<attribute id="MaterialID" type="FixedString" value="b76cd891-dbdf-ca16-0bee-bbeabe89b9b0" />
 							<attribute id="LOD" type="uint8" value="0" />
 						</node>
 						<node id="AnimationWaterfall">

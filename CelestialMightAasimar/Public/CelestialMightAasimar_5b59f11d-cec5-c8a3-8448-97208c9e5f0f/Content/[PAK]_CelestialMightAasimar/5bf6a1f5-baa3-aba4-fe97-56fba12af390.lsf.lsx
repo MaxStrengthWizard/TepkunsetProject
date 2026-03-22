@@ -7,7 +7,7 @@
 				<node id="Resource">
 					<attribute id="ID" type="FixedString" value="5bf6a1f5-baa3-aba4-fe97-56fba12af390" />
 					<attribute id="Name" type="LSString" value="TEP_Aasimar_Icons" />
-					<attribute id="SourceFile" type="LSString" value="Public/CelestialMightAasimar/Assets/Textures/Icons/TEP_Aasimar_Icons.dds" />
+					<attribute id="SourceFile" type="LSString" value="Public/CelestialMightAasimar_5b59f11d-cec5-c8a3-8448-97208c9e5f0f/Assets/Textures/Icons/TEP_Aasimar_Icons.dds" />
 					<attribute id="Template" type="FixedString" value="TEP_Aasimar_Icons" />
 					<attribute id="Streaming" type="bool" value="True" />
 					<attribute id="Type" type="int32" value="1" />
