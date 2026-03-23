@@ -101,14 +101,34 @@ data "CastSound" "CrSpell_Cast_Nightsong_LunarBlessing"
 data "TargetSound" "CrSpell_Impact_Nightsong_LunarBlessing"
 data "CastTextEvent" "Cast"
 data "UseCosts" "BonusActionPoint:1"
-data "SpellAnimation" "3ff87abf-1ea1-4c32-aadf-c822d74c7dc0,,;,,;39daf365-ec06-49a8-81f3-9032640699d7,,;5c400e93-0266-499c-a2e1-75d53358460f,,;d8925ce4-d6d9-400c-92f5-ad772ef7f178,,;,,;eadedcce-d01b-4fbb-a1ae-d218f13aa5d6,,;,,;,,"
+data "SpellAnimation" "2f0d97b9-4a1f-4bf3-a3c2-32efb563d601,,;,,;70ddfd63-fc3f-45f4-b067-75389b85d540,,;90face3a-6607-4b3d-87e6-c6090b069160,,;57e449b3-b712-4508-afcf-f2e91dc473f6,,;,,;84f3727f-aabc-4e34-bf31-c6cd0160bec9,,;,,;,,"
 data "VerbalIntent" "Buff"
-// Nightsong_LunarBlessing_PrepareEffect
-data "PrepareEffect" "3044bca0-7b0e-4d65-9b15-f586f5d58388"
+data "PrepareEffect" "05e14f13-5fbc-4c89-9d8a-e4be7e111b06"
+
+
+
+
+
+
+
+
+
 // Nightsong_LunarBlessing_CastEffect
 data "CastEffect" "2b656a6d-9180-484f-8a75-c37afb857d97"
 data "DamageType" "Radiant"
 data "Sheathing" "DontChange"
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -142,11 +162,8 @@ data "CastTextEvent" "Cast"
 data "UseCosts" "BonusActionPoint:1"
 data "SpellAnimation" "83fb0115-57dd-4cce-ac40-87182b2865e2,,;,,;62e74220-ba87-4fe7-aa99-9d12cab9d654,,;b1f3f86a-a1fc-43f6-8a2b-0110a9f99ead,,;42014429-21fb-412d-bba6-0f8216f5e502,,;,,;43fa5e31-ad7e-47a9-9ca2-f6d40ba8e1cf,,;,,;,,"
 data "VerbalIntent" "Control"
-// Fear_PrepareEffect
-data "PrepareEffect" "23e86239-d81d-4bad-b618-8d12a2a9258a"
-// DestructiveWave_Necrotic_CastEffect
-data "CastEffect" "eff14e27-89fd-4e98-a479-dceb59d82aae"
-// Paladin_Target_Debuff_TargetEffect
+data "PrepareEffect" "9054a112-40c2-44b4-a521-d692933f5ef5"
+data "CastEffect" "f632bb78-68c4-45ba-b1f8-03bc09743c34"
 data "TargetEffect" "68ad05e0-ad4d-48cf-8b19-84434100711a"
 data "DamageType" "Necrotic"
 data "Sheathing" "DontChange"

@@ -13,3 +13,30 @@ data "StatusType" "EFFECT"
 using "_PASSIVES"
 data "StatusEffect" "4106bf8a-e21b-4585-b692-737d1fd38d2c"
 
+
+
+
+
+
+
+
+
+
+
+
+new entry "AASIMAR_NECROTIC_SHROUD_AURA_VFX"
+type "StatusData"
+data "StatusType" "EFFECT"
+using "_PASSIVES"
+data "StatusEffect" "279e5bc4-61ed-4ee6-8b0e-97189ba16688"
+
+new entry "AASIMAR_NECROTIC_SHROUD_VFX"
+type "StatusData"
+data "StatusType" "EFFECT"
+using "_PASSIVES"
+data "StatusEffect" "d0c3a6f3-b954-4e8a-b9d2-8dfc66be24ab"
+
+
+
+
+

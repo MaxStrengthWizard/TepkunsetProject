@@ -68,25 +68,25 @@ data "ApplyEffect" "62710804-ff29-4936-9d45-0e6a44372526"
 // MOONBEAM_StatusEffect
 data "StatusEffect" "73f8b212-1a39-4214-8a32-b5e1427ec860"
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 new entry "AASIMAR_RADIANCE_DAMAGE_RECEIVED"
 type "StatusData"
 data "StatusType" "BOOST"
 data "StackId" "AASIMAR_RADIANCE_DAMAGE_RECEIVED"
 data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 new entry "AASIMAR_NECROTIC_SHROUD_AURA"
 type "StatusData"
@@ -102,9 +102,10 @@ data "StackId" "AASIMAR_NECROTIC_SHROUD_AURA"
 data "AuraRadius" "3"
 data "AuraStatuses" "IF(Enemy() and not IsImmuneToStatus('SG_Frightened')):ApplyStatus(AASIMAR_SHROUD_FRIGHTEN)"
 data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat;IgnoreResting"
+data "OnApplyFunctors" "ApplyStatus(AASIMAR_NECROTIC_SHROUD_AURA_VFX,100,1)"
+data "OnRemoveFunctors" "RemoveStatus(AASIMAR_NECROTIC_SHROUD_AURA_VFX);ApplyStatus(SELF,AASIMAR_NECROTIC_SHROUD_VFX,100,AASIMAR_NECROTIC_SHROUD.Duration)"
 data "StatusGroups" "SG_RemoveOnRespec"
-// ORI_GALE_NECROTICAURA_StatusEffect
-data "StatusEffect" "cc9ae800-7cf8-495f-9c2e-22f765c1e737"
+data "StatusEffect" "4820635c-82b3-4e71-833e-5878bd277835"
 
 new entry "AASIMAR_SHROUD_FRIGHTEN"
 type "StatusData"
@@ -119,8 +120,6 @@ data "TickType" "StartTurn"
 data "OnTickRoll" "not SavingThrow(Ability.Charisma, SourceSpellDC(), AdvantageOnFrightened(), DisadvantageOnFrightened())"
 data "OnTickSuccess" "ApplyStatus(FRIGHTENED,100,1)"
 data "StatusGroups" "SG_RemoveOnRespec"
-// ORI_GALE_AURANECROSIS_StatusEffect
-data "StatusEffect" "d0c3a6f3-b954-4e8a-b9d2-8dfc66be24ab"
 
 new entry "AASIMAR_NECROTIC_SHROUD"
 type "StatusData"
