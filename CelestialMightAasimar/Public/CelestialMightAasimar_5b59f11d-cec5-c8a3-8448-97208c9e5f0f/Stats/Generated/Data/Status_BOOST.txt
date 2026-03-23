@@ -12,19 +12,11 @@ data "SoundStop" "Spell_Status_Fly_MO_Stop"
 data "StackId" "AASIMAR_WINGS_OWNER"
 data "Boosts" "Attribute(Floating);UnlockSpell(Projectile_Fly_Aasimar);UnlockSpell(Shout_Aasimar_Celestial_Revelation_Dismiss);UnlockInterrupt(Interrupt_Revelation_Radiant);UnlockInterrupt(Interrupt_Revelation_Radiant_Critical)"
 data "StatusGroups" "SG_RemoveOnRespec"
+// FLY_MONK_StatusEffect
+data "StatusEffect" "407af258-4652-4e47-8b54-bab89678947d"
 // FLY_StatusEffect
-data "StatusEffect" "70e3142f-6fde-4718-815f-a419e6bfaa23"
+//data "StatusEffect" "70e3142f-6fde-4718-815f-a419e6bfaa23"
 //data "DynamicAnimationTag" "be59efb2-a126-4dc2-a69b-c4cfd0de2856"
-
-
-
-
-
-
-
-
-
-
 
 new entry "AASIMAR_RADIANCE_AURA"
 type "StatusData"
@@ -39,13 +31,12 @@ data "SoundStop" "Spell_Status_Utility_Daylight_Stop"
 data "StackId" "AASIMAR_RADIANCE_AURA"
 data "AuraRadius" "3"
 data "AuraStatuses" "TARGET:IF(Character() and not (Dead() or HasStatus('KNOCKED_OUT'))):ApplyStatus(AASIMAR_RADIANCE,100,-1)"
-data "Boosts" "GameplayLight(3,false,0.1,true);StatusImmunity(SG_Invisible);UnlockSpell(Shout_Aasimar_Celestial_Revelation_Dismiss);UnlockInterrupt(Interrupt_Revelation_Radiant);UnlockInterrupt(Interrupt_Revelation_Radiant_Critical)"
+data "Boosts" "GameplayLight(3,false,0.1,true);UnlockSpell(Shout_Aasimar_Celestial_Revelation_Dismiss);UnlockInterrupt(Interrupt_Revelation_Radiant);UnlockInterrupt(Interrupt_Revelation_Radiant_Critical)"
 data "TooltipDamage" "DealDamage(ProficiencyBonus,Radiant)"
 data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat"
 data "OnApplyFunctors" "ApplyStatus(AASIMAR_RADIANCE_AURA_VFX,100,-1)"
 data "OnRemoveFunctors" "RemoveStatus(AASIMAR_RADIANCE_AURA_VFX)"
 data "StatusGroups" "SG_RemoveOnRespec;SG_Light"
-// MOONBEAM_AURA_StatusEffect
 data "StatusEffect" "dd02e9e1-8ab7-4da0-9097-26fd886c06d4"
 
 new entry "AASIMAR_RADIANCE"
@@ -63,24 +54,8 @@ data "TickType" "EndTurn"
 data "StatusPropertyFlags" "InitiateCombat;BringIntoCombat;TickingWithSource"
 data "OnApplyFunctors" "IF(not HasStatus('AASIMAR_RADIANCE_DAMAGE_RECEIVED')):DealDamage(Cause.ProficiencyBonus,Radiant,Magical);IF(not HasStatus('AASIMAR_RADIANCE_DAMAGE_RECEIVED')):ApplyStatus(AASIMAR_RADIANCE_DAMAGE_RECEIVED,100,1)"
 data "TickFunctors" "IF(not HasStatus('AASIMAR_RADIANCE_DAMAGE_RECEIVED')):DealDamage(Cause.ProficiencyBonus,Radiant,Magical);ApplyStatus(AASIMAR_RADIANCE_DAMAGE_RECEIVED,100,1)"
-// MOONBEAM_ApplyEffect
 data "ApplyEffect" "62710804-ff29-4936-9d45-0e6a44372526"
-// MOONBEAM_StatusEffect
 data "StatusEffect" "73f8b212-1a39-4214-8a32-b5e1427ec860"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 new entry "AASIMAR_RADIANCE_DAMAGE_RECEIVED"
 type "StatusData"

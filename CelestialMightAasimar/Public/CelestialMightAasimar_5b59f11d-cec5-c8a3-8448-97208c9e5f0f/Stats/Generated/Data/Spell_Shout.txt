@@ -35,7 +35,7 @@ type "SpellData"
 data "SpellType" "Shout"
 data "SpellContainerID" "Shout_Aasimar_Celestial_Revelation_Container"
 data "Cooldown" "OncePerRest"
-data "SpellProperties" "ApplyStatus(SELF,AASIMAR_WINGS_OWNER,100,10)"
+data "SpellProperties" "ApplyStatus(SELF,AASIMAR_WINGS_OWNER,100,10);ApplyStatus(SELF,AASIMAR_WINGS_VFX,100,0)"
 data "TargetConditions" "Self()"
 data "Icon" "Aasimar_Wings"
 data "DisplayName" "h7992312fga293g775cge97bg491e8b0da29d;1"
@@ -51,36 +51,9 @@ data "UseCosts" "BonusActionPoint:1"
 data "SpellAnimation" "2f0d97b9-4a1f-4bf3-a3c2-32efb563d601,,;,,;70ddfd63-fc3f-45f4-b067-75389b85d540,,;90face3a-6607-4b3d-87e6-c6090b069160,,;57e449b3-b712-4508-afcf-f2e91dc473f6,,;,,;84f3727f-aabc-4e34-bf31-c6cd0160bec9,,;,,;,,"
 data "VerbalIntent" "Buff"
 data "PrepareEffect" "dccad284-7e77-4dee-8e1a-2d22969f98b1"
-
-
-
-
-
-
-
-
-
-
-
-
-
-// DestructiveWave_Radiant_CastEffect
-data "CastEffect" "9f632984-2fe6-463c-9cbf-4a927ee5dc5e"
-// RadianceOfTheDawn_TargetEffect
+data "CastEffect" "c78d3929-46b2-48a2-bf60-ce0bd1eec54a"
 data "TargetEffect" "78ab57f2-edce-4697-8be4-7bf7c2e76f92"
 data "DamageType" "Radiant"
-data "Sheathing" "DontChange"
-
-
-
-
-
-
-
-
-
-
-
 
 new entry "Shout_Aasimar_Radiance"
 type "SpellData"
@@ -104,42 +77,9 @@ data "UseCosts" "BonusActionPoint:1"
 data "SpellAnimation" "2f0d97b9-4a1f-4bf3-a3c2-32efb563d601,,;,,;70ddfd63-fc3f-45f4-b067-75389b85d540,,;90face3a-6607-4b3d-87e6-c6090b069160,,;57e449b3-b712-4508-afcf-f2e91dc473f6,,;,,;84f3727f-aabc-4e34-bf31-c6cd0160bec9,,;,,;,,"
 data "VerbalIntent" "Buff"
 data "PrepareEffect" "05e14f13-5fbc-4c89-9d8a-e4be7e111b06"
-
-
-
-
-
-
-
-
-
-// Nightsong_LunarBlessing_CastEffect
 data "CastEffect" "2b656a6d-9180-484f-8a75-c37afb857d97"
+data "PositionEffect" "942910fa-d929-4d6b-956e-13befd2cab41"
 data "DamageType" "Radiant"
-data "Sheathing" "DontChange"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 new entry "Shout_Aasimar_Shroud"
 type "SpellData"
@@ -166,5 +106,4 @@ data "PrepareEffect" "9054a112-40c2-44b4-a521-d692933f5ef5"
 data "CastEffect" "f632bb78-68c4-45ba-b1f8-03bc09743c34"
 data "TargetEffect" "68ad05e0-ad4d-48cf-8b19-84434100711a"
 data "DamageType" "Necrotic"
-data "Sheathing" "DontChange"
 
