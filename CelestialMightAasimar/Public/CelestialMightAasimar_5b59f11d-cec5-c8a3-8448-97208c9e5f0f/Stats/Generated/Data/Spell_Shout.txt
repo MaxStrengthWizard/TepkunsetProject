@@ -30,9 +30,6 @@ data "SpellActionType" "Dismiss"
 data "PrepareEffect" "7121a488-7c9a-4ba1-a585-f79aaa77e97c"
 data "CastEffect" "f9a05071-98c2-401b-bf12-eb8ae45fecac"
 
-
-
-
 new entry "Shout_Aasimar_Wings"
 type "SpellData"
 data "SpellType" "Shout"
@@ -53,8 +50,20 @@ data "CastTextEvent" "Cast"
 data "UseCosts" "BonusActionPoint:1"
 data "SpellAnimation" "2f0d97b9-4a1f-4bf3-a3c2-32efb563d601,,;,,;70ddfd63-fc3f-45f4-b067-75389b85d540,,;90face3a-6607-4b3d-87e6-c6090b069160,,;57e449b3-b712-4508-afcf-f2e91dc473f6,,;,,;84f3727f-aabc-4e34-bf31-c6cd0160bec9,,;,,;,,"
 data "VerbalIntent" "Buff"
-// Nightsong_LunarBolt_PrepareEffect
-data "PrepareEffect" "05e14f13-5fbc-4c89-9d8a-e4be7e111b06"
+data "PrepareEffect" "dccad284-7e77-4dee-8e1a-2d22969f98b1"
+
+
+
+
+
+
+
+
+
+
+
+
+
 // DestructiveWave_Radiant_CastEffect
 data "CastEffect" "9f632984-2fe6-463c-9cbf-4a927ee5dc5e"
 // RadianceOfTheDawn_TargetEffect
