@@ -16,7 +16,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Name" type="FixedString" value="Aasimar_3"/>
-                    <attribute id="Spells" type="LSString" value="Shout_Aasimar_Celestial_Revelation_Container"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Aasimar_CelestialRevelation"/>
                     <attribute id="UUID" type="guid" value="a2882779-ac61-4cd8-995d-b342dd80b8ac"/>
                 </node>
             </children>
