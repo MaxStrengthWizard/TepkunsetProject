@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="dd0cb8a2-b46e-4c4a-b6a5-063e0f5c7469" />
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Player" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="e87dd6f0-22f4-4cd5-914f-adddd2595941" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h61a7f42agaa2dg0a37g0201gffeada6c93c9" version="2" />
+					<attribute id="Icon" type="FixedString" value="65508880-7afc-74cf-97eb-8d85c80b79b4-_(Icon_Human_Female)" />
+					<attribute id="Stats" type="FixedString" value="HeroAasimarFemale" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="IsPlayer" type="bool" value="False" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="b9e588b4-d957-fea3-5572-ad798d05a010" />
+					<attribute id="PortraitVisualResourceID" type="FixedString" value="51214aaf-d81d-60f3-b7a6-28002ade0a6f" />
+					<attribute id="Race" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79" />
+					<attribute id="Faction" type="guid" value="9fac6ec7-642b-3553-1bc8-6b8e0edae7d5" />
+					<children>
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="02cdc15e-1dc3-5eb4-f73c-9458b4f90b9f" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-ae64-9684d846eb83" />
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="1638a96f-373d-410a-b731-22f164cd3466" />
+					<attribute id="Name" type="LSString" value="Aasimar_Female_Strong_Player" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9adf7972-dc60-418a-90f0-1387e1ab35d6" />
+					<attribute id="DisplayName" type="TranslatedString" handle="hb25fcb9bg5458gd5b6g3c63g80e8058420e9" version="2" />
+					<attribute id="Icon" type="FixedString" value="3cea72b5-bbc3-a9d8-3bb9-edb85ef9738c-_(Icon_Human_Female_Strong)" />
+					<attribute id="Stats" type="FixedString" value="HeroAasimarFemale" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="27f7ff76-0de1-ebd4-8038-180566869aa1" />
+					<attribute id="PortraitVisualResourceID" type="FixedString" value="df8ba65b-48da-8f7c-a814-c2fcb65ae67a" />
+					<attribute id="Race" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79" />
+					<attribute id="Faction" type="guid" value="6545a015-1b3d-66a4-6a0e-6ec62065cdb7" />
+					<children>
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="02cdc15e-1dc3-5eb4-f73c-9458b4f90b9f" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-ae64-9684d846eb83" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="d625305f-bb78-45d3-a8a1-8a4d5408df1e" />
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Player" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="acd7060a-43bd-4dc9-b050-9d9b2cf7b7df" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h153d4254gf6c4gc42fg3900g112b87a47121" version="2" />
+					<attribute id="Icon" type="FixedString" value="40b6c0b8-693d-3726-6819-acbc8481f208-_(Icon_Human_Male)" />
+					<attribute id="Stats" type="FixedString" value="HeroAasimarMale" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="47e8ffb6-bac5-4231-7e56-aa62dd69d908" />
+					<attribute id="PortraitVisualResourceID" type="FixedString" value="71aaadda-22e0-f962-14ff-f57d57a2e726" />
+					<attribute id="Race" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79" />
+					<attribute id="Faction" type="guid" value="6545a015-1b3d-66a4-6a0e-6ec62065cdb7" />
+					<children>
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="02cdc15e-1dc3-5eb4-f73c-9458b4f90b9f" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-ae64-9684d846eb83" />
+								</node>
+							</children>
+						</node>
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="TradeTreasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="Empty" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="2d6ec6fc-d5e1-462e-ba41-e98f5c43fd61" />
+					<attribute id="Name" type="LSString" value="Aasimar_Male_Strong_Player" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="12c0a711-1459-48e2-a50e-7b792eee0918" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h3798f0c8gde93g7745gf2f5g43fdab986e6b" version="1" />
+					<attribute id="Icon" type="FixedString" value="0a9d0823-9a79-7a0b-9d37-c0ae1976051f-_(Icon_Human_Male_Strong)" />
+					<attribute id="Stats" type="FixedString" value="HeroAasimarMale" />
+					<attribute id="SpellSet" type="FixedString" value="CommonPlayerActions" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="c8ba362a-ba9f-7ce3-807e-0f8615deb705" />
+					<attribute id="PortraitVisualResourceID" type="FixedString" value="1d4e0fe8-969c-1050-8f3e-96f172a3d153" />
+					<attribute id="Race" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79" />
+					<attribute id="Faction" type="guid" value="6545a015-1b3d-66a4-6a0e-6ec62065cdb7" />
+					<children>
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="02cdc15e-1dc3-5eb4-f73c-9458b4f90b9f" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="e0d1ff71-04a8-4340-ae64-9684d846eb83" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

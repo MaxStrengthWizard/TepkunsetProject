@@ -1,0 +1,10 @@
+new entry "HeroAasimarFemale"
+type "Character"
+using "_Hero"
+data "Weight" "75"
+
+new entry "HeroAasimarMale"
+type "Character"
+using "_Hero"
+data "Weight" "75"
+
