@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="8" revision="0" build="500" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="VisualBank">
+		<node id="VisualBank">
+			<children>
+				<node id="Resource">
+					<attribute id="AttachBone" type="FixedString" value="" />
+					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="86c2af56-8ea8-4270-aed8-4b07a7a905be" />
+					<attribute id="BoundsMax" type="fvec3" value="2.174573 2.591218 0.9924628" />
+					<attribute id="BoundsMin" type="fvec3" value="-2.174573 1.12594 0.06045844" />
+					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
+					<attribute id="HairPresetResourceId" type="FixedString" value="" />
+					<attribute id="HairType" type="uint8" value="0" />
+					<attribute id="ID" type="FixedString" value="d9bb8c96-8d05-4cf3-96eb-f268b88897c3" />
+					<attribute id="MaterialType" type="uint8" value="0" />
+					<attribute id="Name" type="LSString" value="HUM_MS_AAS_Shadow_Wings" />
+					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
+					<attribute id="RemapperSlotId" type="FixedString" value="" />
+					<attribute id="ScalpMaterialId" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="3ab16354-81a3-a5af-8b72-e7f3011deb7b" />
+					<attribute id="SkeletonSlot" type="FixedString" value="Wings" />
+					<attribute id="Slot" type="FixedString" value="NakedBody" />
+					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/CelestialMightAasimar/Wings/HUM_MS_AAS_Wings.GR2" />
+					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
+					<attribute id="Template" type="FixedString" value="Generated/Public/CelestialMightAasimar/Wings/HUM_MS_AAS_Wings.Dummy_Root.0" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
+					<children>
+						<node id="AnimationSetOverrides">
+							<attribute id="PairElement1" type="guid" value="be59efb2-a126-4dc2-a69b-c4cfd0de2856" />
+							<attribute id="PairElement2" type="FixedString" value="dc73b93e-c622-4a55-aa98-22d4a0d36572" />
+							<attribute id="strAnimationSetOverrideType" type="int32" value="0" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="941fa8ff-d19c-85ee-0ca0-b0aa1daf1550" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="17b85ba0-f4b7-abd3-4ed5-307d71a55836" />
+						</node>
+						<node id="AnimationWaterfall">
+							<attribute id="Object" type="FixedString" value="55798a5e-5712-4608-9db7-fd4ada616aa5" />
+						</node>
+						<node id="Base" />
+						<node id="ClothProxyMapping" />
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="6ad9157d-2b05-ba95-73a6-2137f44043d4" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_MS_Wings.HUM_FS_Wings_Mesh.0" />
+						</node>
+						<node id="Objects">
+							<attribute id="LOD" type="uint8" value="0" />
+							<attribute id="MaterialID" type="FixedString" value="6ad9157d-2b05-ba95-73a6-2137f44043d4" />
+							<attribute id="ObjectID" type="FixedString" value="HUM_MS_Wings.HUM_FS_Wings_Attachment_Mesh.1" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

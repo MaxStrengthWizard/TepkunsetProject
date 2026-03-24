@@ -1136,6 +1136,39 @@
                         </node>
                     </children>
                 </node>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="0"/>
                     <attribute id="BodyType" type="uint8" value="0"/>
@@ -1216,6 +1249,17 @@
                     <attribute id="UUID" type="guid" value="43342bc9-b7ee-46b6-9c7f-e1dae12e45d1"/>
                     <attribute id="VisualResource" type="guid" value="c83c89d8-1da4-ae02-12ce-2405dc4fb079"/>
                 </node>
+
+
+
+
+
+
+
+
+
+
+
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="1"/>
                     <attribute id="BodyType" type="uint8" value="0"/>
@@ -1286,6 +1330,17 @@
                     <attribute id="UUID" type="guid" value="57827d11-40cb-4b89-9f4e-9fec2268773d"/>
                     <attribute id="VisualResource" type="guid" value="616753a1-1d1e-717a-51b0-f455b2477aeb"/>
                 </node>
+
+
+
+
+
+
+
+
+
+
+
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="0"/>
                     <attribute id="BodyType" type="uint8" value="1"/>
@@ -1386,6 +1441,17 @@
                     <attribute id="UUID" type="guid" value="8ba7685c-dec4-4d23-8e65-5e911db9a444"/>
                     <attribute id="VisualResource" type="guid" value="b9db3ea5-ad5a-0c86-2c1a-7b5e08695601"/>
                 </node>
+
+
+
+
+
+
+
+
+
+
+
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="1"/>
                     <attribute id="BodyType" type="uint8" value="1"/>
@@ -1486,6 +1552,61 @@
                     <attribute id="UUID" type="guid" value="5c718918-1e3e-4ce0-adff-e47917db16b3"/>
                     <attribute id="VisualResource" type="guid" value="d8fa6947-8595-d6e7-ea77-ccf70e0c34cf"/>
                 </node>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="0"/>
                     <attribute id="BodyType" type="uint8" value="0"/>
@@ -1546,6 +1667,17 @@
                     <attribute id="UUID" type="guid" value="f66b38b4-226c-423d-bc52-512d4a0ecb32"/>
                     <attribute id="VisualResource" type="guid" value="3f36c196-1394-8b0a-62ae-407384cfd941"/>
                 </node>
+
+
+
+
+
+
+
+
+
+
+
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="1"/>
                     <attribute id="BodyType" type="uint8" value="0"/>
@@ -1606,6 +1738,17 @@
                     <attribute id="UUID" type="guid" value="fa644302-cb50-4d0a-8e29-f450d2824c7d"/>
                     <attribute id="VisualResource" type="guid" value="2b95d50a-20ff-a1e2-f542-36d99a15c332"/>
                 </node>
+
+
+
+
+
+
+
+
+
+
+
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="0"/>
                     <attribute id="BodyType" type="uint8" value="1"/>
@@ -1676,6 +1819,17 @@
                     <attribute id="UUID" type="guid" value="d31de9cc-b189-4110-88f9-709ffbf206d6"/>
                     <attribute id="VisualResource" type="guid" value="7bc7d0f1-6b09-67db-9f53-e89999467656"/>
                 </node>
+
+
+
+
+
+
+
+
+
+
+
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="1"/>
                     <attribute id="BodyType" type="uint8" value="1"/>
@@ -1746,6 +1900,50 @@
                     <attribute id="UUID" type="guid" value="1b9b8580-a055-4733-a170-ca0c8d51da4c"/>
                     <attribute id="VisualResource" type="guid" value="079e426e-ea33-5afb-fde1-8444bc970dab"/>
                 </node>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </children>
         </node>
     </region>
