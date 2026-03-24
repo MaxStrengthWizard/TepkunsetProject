@@ -258,6 +258,41 @@
   <content contentuid="hb9c65625d6c5405e937e561afcdfd6ed46fa" version="1">Can cause enemies within [1] to become &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt;.</content>
   <content contentuid="h967e23dc5f244c4689b7523fb9f5a937cfbf" version="1">Creature is engulfed by a terrifying aura. It will become &lt;LSTag Type="Status" Tooltip="FRIGHTENED"&gt;Frightened&lt;/LSTag&gt; unless it succeeds a Charisma &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throw&lt;/LSTag&gt;.</content>
   <content contentuid="hf0093714b9904b9da90c9061013a1338a7b7" version="1">Deal an additional [2] once per turn on hit for the duration of the transformation.</content>
+  <content contentuid="h1b745ef93aab4b13a211c21a3944d1f224c6" version="1">Head 1 - Glow A</content>
+  <content contentuid="h260a5712022c4eb5b25d8a149daa717eb354" version="1">Head 2 - Glow A</content>
+  <content contentuid="hb72412c3e9ca4d5f841159a311027be3c623" version="1">Head 3 - Glow A</content>
+  <content contentuid="h2167bbdccd1d4c56a9e8f878e246e0b37a9f" version="1">Head 4 - Glow A</content>
+  <content contentuid="h89b6e6ceefd34917aece61ba4e4668080c60" version="1">Head 5 - Glow A</content>
+  <content contentuid="h07c0df6a3801491d97596bda0dacda0d576f" version="1">Head 6 - Glow A</content>
+  <content contentuid="h9989e240207a461294bad10bb194156cc9f1" version="1">Head 7 - Glow A</content>
+  <content contentuid="h07c4b022018f402e80086ce104c3a9187f9a" version="1">Head 8 - Glow A</content>
+  <content contentuid="hca2a228ef3844eb3aeeeba4f0b255ed79f4d" version="1">Head 1 - Glow B</content>
+  <content contentuid="h2060c4ac32de4cf7be72c5ccad13538e891e" version="1">Head 2 - Glow B</content>
+  <content contentuid="h2d10d693ac084ef68931f1d75e0cfd1f34d8" version="1">Head 3 - Glow B</content>
+  <content contentuid="hd4dab25bf01e4c1b917ad9d1dae0957cdddf" version="1">Head 4 - Glow B</content>
+  <content contentuid="h351e7c31f3af41868a672a1f802a80f698d4" version="1">Head 5 - Glow B</content>
+  <content contentuid="hf9dbaabb291d4ad895c6df888ff7e7e99455" version="1">Head 6 - Glow B</content>
+  <content contentuid="h30694ea6e54042e6abd2875f904eecbdd775" version="1">Head 7 - Glow B</content>
+  <content contentuid="h7071a611e7484dd8aec55430591875e86afb" version="1">Head 8 - Glow B</content>
+  <content contentuid="h9aa729f3b81a4d57aa2d51f8b9661023159d" version="1">Head 1 - Glow A</content>
+  <content contentuid="hc6fba6b4a4e94e21acca31a3e683f38efa10" version="1">Head 2 - Glow A</content>
+  <content contentuid="h76235e812fbe4e54acaf070a07eaa5f78b4c" version="1">Head 3 - Glow A</content>
+  <content contentuid="hf12c441fd17e454c9eec6ec05c794b838f6e" version="1">Head 4 - Glow A</content>
+  <content contentuid="hd3e90a82f14840c0b04d4d641caaf1419e76" version="1">Head 5 - Glow A</content>
+  <content contentuid="h9ad8583ba68b452891780ff4854b2cf4c4fd" version="1">Head 6 - Glow A</content>
+  <content contentuid="h818e58d076d644b3b8d3bba8a03368fb53b0" version="1">Head 1 - Glow B</content>
+  <content contentuid="hb0ec7223d3794293bb85212d0516ee077f8g" version="1">Head 2 - Glow B</content>
+  <content contentuid="he6607f34d3ab45e8850ec8f4f531eca52gd8" version="1">Head 3 - Glow B</content>
+  <content contentuid="hc8a08768ae2748968ec5ecf7f7140db6473e" version="1">Head 4 - Glow B</content>
+  <content contentuid="h8c20b5d1edbb43a8b2b7ed32d47486dff7bc" version="1">Head 5 - Glow B</content>
+  <content contentuid="h39a3157c493e454bbcd2d509889163e3fc9f" version="1">Head 6 - Glow B</content>
+
+
+
+
+
+
+
 
 
 
@@ -272,16 +307,18 @@
   <content contentuid="PLACEHOLDER" version="1">Head 5 - Glow A</content>
   <content contentuid="PLACEHOLDER" version="1">Head 6 - Glow A</content>
   <content contentuid="PLACEHOLDER" version="1">Head 7 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 8 - Glow A</content>
+
+  <content contentuid="PLACEHOLDER" version="1">Head 1 - Glow B</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 2 - Glow B</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 3 - Glow B</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 4 - Glow B</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 5 - Glow B</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 6 - Glow B</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 7 - Glow B</content>
 
 
-  <content contentuid="PLACEHOLDER" version="1">Head 1 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 2 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 3 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 4 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 5 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 6 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 7 - Glow A</content>
+
+
 
 
   <content contentuid="PLACEHOLDER" version="1">Head 1 - Glow A</content>
@@ -295,6 +332,22 @@
   <content contentuid="PLACEHOLDER" version="1">Head 9 - Glow A</content>
   <content contentuid="PLACEHOLDER" version="1">Head 10 - Glow A</content>
 
+  <content contentuid="PLACEHOLDER" version="1">Head 1 - Glow B</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 2 - Glow B</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 3 - Glow B</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 4 - Glow B</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 5 - Glow B</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 6 - Glow B</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 7 - Glow B</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 8 - Glow B</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 9 - Glow B</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 10 - Glow B</content>
+
+
+
+
+
+
 
   <content contentuid="PLACEHOLDER" version="1">Head 1 - Glow A</content>
   <content contentuid="PLACEHOLDER" version="1">Head 2 - Glow A</content>
@@ -307,74 +360,6 @@
   <content contentuid="PLACEHOLDER" version="1">Head 9 - Glow A</content>
   <content contentuid="PLACEHOLDER" version="1">Head 10 - Glow A</content>
 
-
-  <content contentuid="PLACEHOLDER" version="1">Head 1 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 2 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 3 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 4 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 5 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 6 - Glow A</content>
-
-
-  <content contentuid="PLACEHOLDER" version="1">Head 1 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 2 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 3 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 4 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 5 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 6 - Glow A</content>
-
-
-  <content contentuid="PLACEHOLDER" version="1">Head 1 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 2 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 3 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 4 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 5 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 6 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 7 - Glow A</content>
-
-
-  <content contentuid="PLACEHOLDER" version="1">Head 1 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 2 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 3 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 4 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 5 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 6 - Glow A</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 7 - Glow A</content>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <content contentuid="PLACEHOLDER" version="1">Head 1 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 2 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 3 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 4 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 5 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 6 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 7 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 8 - Glow B</content>
-
-
-  <content contentuid="PLACEHOLDER" version="1">Head 1 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 2 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 3 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 4 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 5 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 6 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 7 - Glow B</content>
-
-
   <content contentuid="PLACEHOLDER" version="1">Head 1 - Glow B</content>
   <content contentuid="PLACEHOLDER" version="1">Head 2 - Glow B</content>
   <content contentuid="PLACEHOLDER" version="1">Head 3 - Glow B</content>
@@ -387,6 +372,41 @@
   <content contentuid="PLACEHOLDER" version="1">Head 10 - Glow B</content>
 
 
+
+
+
+
+
+
+
+  <content contentuid="PLACEHOLDER" version="1">Head 1 - Glow A</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 2 - Glow A</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 3 - Glow A</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 4 - Glow A</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 5 - Glow A</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 6 - Glow A</content>
+
+  <content contentuid="PLACEHOLDER" version="1">Head 1 - Glow B</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 2 - Glow B</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 3 - Glow B</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 4 - Glow B</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 5 - Glow B</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 6 - Glow B</content>
+
+
+
+
+
+
+
+  <content contentuid="PLACEHOLDER" version="1">Head 1 - Glow A</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 2 - Glow A</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 3 - Glow A</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 4 - Glow A</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 5 - Glow A</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 6 - Glow A</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 7 - Glow A</content>
+
   <content contentuid="PLACEHOLDER" version="1">Head 1 - Glow B</content>
   <content contentuid="PLACEHOLDER" version="1">Head 2 - Glow B</content>
   <content contentuid="PLACEHOLDER" version="1">Head 3 - Glow B</content>
@@ -394,26 +414,20 @@
   <content contentuid="PLACEHOLDER" version="1">Head 5 - Glow B</content>
   <content contentuid="PLACEHOLDER" version="1">Head 6 - Glow B</content>
   <content contentuid="PLACEHOLDER" version="1">Head 7 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 8 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 9 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 10 - Glow B</content>
 
 
-  <content contentuid="PLACEHOLDER" version="1">Head 1 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 2 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 3 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 4 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 5 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 6 - Glow B</content>
 
 
-  <content contentuid="PLACEHOLDER" version="1">Head 1 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 2 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 3 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 4 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 5 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 6 - Glow B</content>
 
+
+
+  <content contentuid="PLACEHOLDER" version="1">Head 1 - Glow A</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 2 - Glow A</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 3 - Glow A</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 4 - Glow A</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 5 - Glow A</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 6 - Glow A</content>
+  <content contentuid="PLACEHOLDER" version="1">Head 7 - Glow A</content>
 
   <content contentuid="PLACEHOLDER" version="1">Head 1 - Glow B</content>
   <content contentuid="PLACEHOLDER" version="1">Head 2 - Glow B</content>
@@ -424,13 +438,14 @@
   <content contentuid="PLACEHOLDER" version="1">Head 7 - Glow B</content>
 
 
-  <content contentuid="PLACEHOLDER" version="1">Head 1 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 2 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 3 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 4 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 5 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 6 - Glow B</content>
-  <content contentuid="PLACEHOLDER" version="1">Head 7 - Glow B</content>
+
+
+
+
+
+
+
+
 
 
 

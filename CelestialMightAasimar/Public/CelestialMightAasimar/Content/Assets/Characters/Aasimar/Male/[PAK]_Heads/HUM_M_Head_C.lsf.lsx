@@ -15,7 +15,7 @@
 					<attribute id="HairType" type="uint8" value="0" />
 					<attribute id="ID" type="FixedString" value="499051d0-b639-4182-bf95-bcbec97bcf25" />
 					<attribute id="MaterialType" type="uint8" value="18" />
-					<attribute id="Name" type="LSString" value="HUM_M_NKD_Head_GlowA" />
+					<attribute id="Name" type="LSString" value="HUM_M_NKD_Head_C_GlowA" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
@@ -144,7 +144,7 @@
 					<attribute id="HairType" type="uint8" value="0" />
 					<attribute id="ID" type="FixedString" value="939fab98-fedc-4736-b4a2-591506b3d734" />
 					<attribute id="MaterialType" type="uint8" value="18" />
-					<attribute id="Name" type="LSString" value="HUM_M_NKD_Head_GlowB" />
+					<attribute id="Name" type="LSString" value="HUM_M_NKD_Head_C_GlowB" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
