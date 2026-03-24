@@ -1,12 +1,3 @@
-new entry "AASIMAR_WINGS"
-type "StatusData"
-data "StatusType" "EFFECT"
-data "DisplayName" "h89dbcda0ga850g1664g0be4gd8ecbfa9bdca;1"
-data "Description" "h38e3f81age80dgf7e4ge542gce0bf7220940;1"
-data "Icon" "Aasimar_Wings"
-data "Boosts" "Attribute(InventoryBound)"
-data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
-
 new entry "AASIMAR_WINGS_VFX"
 type "StatusData"
 data "StatusType" "EFFECT"
