@@ -1376,29 +1376,6 @@
                     <attribute id="UUID" type="guid" value="bd4737d5-8a3b-496d-a949-453bf51b4e04"/>
                     <attribute id="VisualResource" type="guid" value="7318e897-e2d0-4e17-8bbf-18638f5ba5da"/>
                 </node>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="1"/>
                     <attribute id="BodyType" type="uint8" value="0"/>
@@ -1469,17 +1446,145 @@
                     <attribute id="UUID" type="guid" value="57827d11-40cb-4b89-9f4e-9fec2268773d"/>
                     <attribute id="VisualResource" type="guid" value="616753a1-1d1e-717a-51b0-f455b2477aeb"/>
                 </node>
-
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="1"/>
                     <attribute id="BodyType" type="uint8" value="0"/>
-                    <attribute id="DefaultSkinColor" type="guid" value="SKINTONE"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="PLACEHOLDER" version="1"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="f49b0916-0e85-9a66-b7d9-f140270e62cc"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h841531dca4c04636ab8747bc1af4939c0ggc" version="1"/>
                     <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
                     <attribute id="SlotName" type="FixedString" value="Head"/>
-                    <attribute id="UUID" type="guid" value="UUID_HERE"/>
-                    <attribute id="VisualResource" type="guid" value="VIS_RESOURCE_UUID"/>
+                    <attribute id="UUID" type="guid" value="7f226da1-b175-4479-b54e-e5ed1313f0e6"/>
+                    <attribute id="VisualResource" type="guid" value="0a88cae8-e032-490d-af28-ea5128657866"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="f49b0916-0e85-9a66-b7d9-f140270e62cc"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h1057b31e52654a95b84d95ceb4451020c839" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="02d65f20-9e1b-4bc7-a45c-cea7b143e7b0"/>
+                    <attribute id="VisualResource" type="guid" value="122f26cd-d6d4-4dd0-8e3b-a609912bb6f7"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="c778b369-64d8-5a15-4898-05da30865151"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="he05d331c84e849f79a9d4b53184b5f4fae8a" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="da09458b-c7a9-4469-a7a9-4956acb3ecf3"/>
+                    <attribute id="VisualResource" type="guid" value="7c2daf53-9de2-40a7-85a7-f7879ec53478"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="c778b369-64d8-5a15-4898-05da30865151"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hff14781073ce472e86e248ce5142f64c9gg2" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="5331acbd-625a-4a56-a975-20ea05828c31"/>
+                    <attribute id="VisualResource" type="guid" value="118e0124-b77b-445a-92ae-f27fbbee2608"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="23d08caf-f88d-0457-6253-8059fdf027d3"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb8dfb607acaa453faf797c4382a02f5b5b45" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="517edf3b-7dff-4e16-a5f7-6cee72a2236b"/>
+                    <attribute id="VisualResource" type="guid" value="ff488a0f-4e67-43cd-9f62-dd658606208e"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="23d08caf-f88d-0457-6253-8059fdf027d3"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h93a63c07bb73461197f9cbf6322a309516cf" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="f0c28fc6-2c9b-4206-a2b5-ce8f83045baf"/>
+                    <attribute id="VisualResource" type="guid" value="f5a54544-cb2d-4153-990f-f0b52731ef09"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="fbfbdac7-b88b-840d-2601-e37aa45663ae"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8b3d106f7d9f4d2ab061b4b9aecc3ed1ff4a" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="b345aa29-11b1-417f-a8fa-0a176af8a1ea"/>
+                    <attribute id="VisualResource" type="guid" value="acefc4c3-65af-4701-8d41-54add6569b3d"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="fbfbdac7-b88b-840d-2601-e37aa45663ae"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h1dc99c94a23249528a3b57e6cbf5b5a558c3" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="ee523c2e-ef2b-4b6b-ba14-e68d1d8cff6a"/>
+                    <attribute id="VisualResource" type="guid" value="eaa3fe43-c383-4657-93aa-9992a5fc2781"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="4035cc8a-6c20-f6de-040c-7f0edd5ac29b"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h7a6df483a1524887ac60c6b34fa3e8cegd93" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="f7222285-ab6a-48d5-9593-83fe2913230a"/>
+                    <attribute id="VisualResource" type="guid" value="823e7c98-ba17-4ca6-b9e6-3ead93ec6d2a"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="4035cc8a-6c20-f6de-040c-7f0edd5ac29b"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2763b0de5c5e447a90e9ea6a6e2e8be5b41g" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="bdf7727e-d08e-433d-a284-33f3a5de1191"/>
+                    <attribute id="VisualResource" type="guid" value="99fb8d39-3da5-4d7f-bd57-557b24918c79"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="a1e94908-bf85-7e28-3696-85e254349d01"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h5597871db1ee449fbee39e1ba58ad8b714b5" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="fedda5e8-2152-4f8c-90d5-dd2409d094c4"/>
+                    <attribute id="VisualResource" type="guid" value="36450a08-b1de-4943-ac11-4ed8e9b6adc1"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="a1e94908-bf85-7e28-3696-85e254349d01"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha0e3ea7908874444808ca4bb7f06e0ed476c" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="358e7817-7f01-4a39-b450-c2ab77b2cf1b"/>
+                    <attribute id="VisualResource" type="guid" value="7e2aae07-2af5-45e1-ab3b-1533ce97792e"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="f959db91-6da4-191f-279f-02f8c04dae21"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h0c28521be9fb485fa43dc86c34a9a150967d" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="52cfeef1-04b0-4722-9605-d04035c55794"/>
+                    <attribute id="VisualResource" type="guid" value="15e0284c-4e91-438e-b059-dd9056bcf6e9"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="f959db91-6da4-191f-279f-02f8c04dae21"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h63b98c442791446a9d299bc0054b5b63d821" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="26c125f0-93d8-44b8-a3ef-454cb0a805ac"/>
+                    <attribute id="VisualResource" type="guid" value="8e63b00c-67df-4256-8cd2-27bc22c87389"/>
                 </node>
 
 
@@ -1985,26 +2090,6 @@
                     <attribute id="UUID" type="guid" value="e97f4844-a69e-42b2-aa35-2c8e44faa5ac"/>
                     <attribute id="VisualResource" type="guid" value="9afc3aee-ce84-4f24-840c-ab0f2e2bdf57"/>
                 </node>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="1"/>
                     <attribute id="BodyType" type="uint8" value="0"/>
@@ -2065,17 +2150,125 @@
                     <attribute id="UUID" type="guid" value="fa644302-cb50-4d0a-8e29-f450d2824c7d"/>
                     <attribute id="VisualResource" type="guid" value="2b95d50a-20ff-a1e2-f542-36d99a15c332"/>
                 </node>
-
-
                 <node id="CharacterCreationAppearanceVisual">
                     <attribute id="BodyShape" type="uint8" value="1"/>
                     <attribute id="BodyType" type="uint8" value="0"/>
-                    <attribute id="DefaultSkinColor" type="guid" value="SKINTONE"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="PLACEHOLDER" version="1"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="f6da7112-abe0-701d-9ae0-1175b44674b0"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h556fd104456a44bb8ef058577ae88ddb8d83" version="1"/>
                     <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
                     <attribute id="SlotName" type="FixedString" value="Head"/>
-                    <attribute id="UUID" type="guid" value="UUID_HERE"/>
-                    <attribute id="VisualResource" type="guid" value="VIS_RESOURCE_UUID"/>
+                    <attribute id="UUID" type="guid" value="87672da4-51a1-4189-b219-63cc28b2411d"/>
+                    <attribute id="VisualResource" type="guid" value="d1a3856a-1085-4e4b-9643-c844e934bb87"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="f6da7112-abe0-701d-9ae0-1175b44674b0"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h77ad929acb1d477d87c31ec8117b5a50a2d3" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="d915d29e-6295-4a90-a2d4-8a6277d8587a"/>
+                    <attribute id="VisualResource" type="guid" value="e5a9c718-b711-480a-92e7-64e062420f7d"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="d580e739-dbb9-0ed8-f3ee-091318ffcc46"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h282a316352fb4beab8226eb65338e664588c" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="34144806-3e70-4954-8c32-2b713c92c2ea"/>
+                    <attribute id="VisualResource" type="guid" value="ccbf42b7-e4c6-4878-8ecd-52167b4eb853"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="d580e739-dbb9-0ed8-f3ee-091318ffcc46"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hc192b9173a344842ab759cc9ac9360ac3377" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="1d1a9d2e-fcd7-4268-9d33-a372e6925408"/>
+                    <attribute id="VisualResource" type="guid" value="f0a9e1e1-671b-4de0-831d-5efc6f9090dd"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="fbfbdac7-b88b-840d-2601-e37aa45663ae"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h72213687fddb41de932d52f0b30a81269bcf" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="bc7aaf32-2865-4b0e-92f9-8f3a82171fdf"/>
+                    <attribute id="VisualResource" type="guid" value="26e55f8b-8c55-49cc-b27c-8f110e55a49b"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="fbfbdac7-b88b-840d-2601-e37aa45663ae"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="he534400eb9d34dd88f9a583d77097b710d5f" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="38ee2cb5-3549-4da0-9894-376b94a79b4b"/>
+                    <attribute id="VisualResource" type="guid" value="66f5f892-f0b3-42e7-96b1-000747d17072"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="f49b0916-0e85-9a66-b7d9-f140270e62cc"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h03b9e1e75f7445c6aa8157eeb0b386128a67" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="8fd64239-a39e-4e51-8fb0-de789fb4eefb"/>
+                    <attribute id="VisualResource" type="guid" value="4c034168-f2d3-4d56-8349-9835d42a96ff"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="f49b0916-0e85-9a66-b7d9-f140270e62cc"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hc68b4785539e4215884d2091f8e7f80dd877" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="b123c066-70f5-4d8e-9d72-706ea019e69a"/>
+                    <attribute id="VisualResource" type="guid" value="1300daca-fea2-497e-b000-7fe7db297508"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="f959db91-6da4-191f-279f-02f8c04dae21"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="he772a6183107441690e9698e36f78734g208" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="a4da8ce6-c9ea-46e7-b9a2-4ad529ff8a87"/>
+                    <attribute id="VisualResource" type="guid" value="48f9e158-3a96-4c05-9278-2b68e9b8544a"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="f959db91-6da4-191f-279f-02f8c04dae21"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h276feaafd58345409f71058aa4481711f127" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="3f1114c9-9400-45d6-807c-fbc615f3185a"/>
+                    <attribute id="VisualResource" type="guid" value="61218a50-c4be-4083-bd1d-078a02e603fc"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="64c0c64d-92e5-959d-9bbb-074d3d3fc9fc"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hc86faec5de6646e78ff868adc87a6fab6da7" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="099292a7-ebe3-4b6d-9819-7a3ad5a4631b"/>
+                    <attribute id="VisualResource" type="guid" value="7da3d011-089d-4a0c-95e7-bab171e8a996"/>
+                </node>
+                <node id="CharacterCreationAppearanceVisual">
+                    <attribute id="BodyShape" type="uint8" value="1"/>
+                    <attribute id="BodyType" type="uint8" value="0"/>
+                    <attribute id="DefaultSkinColor" type="guid" value="64c0c64d-92e5-959d-9bbb-074d3d3fc9fc"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb4c2289bd09441cb8e061fd5d1622d1a1cf0" version="1"/>
+                    <attribute id="RaceUUID" type="guid" value="249e2e66-aece-43d5-b902-9921f7f67c79"/>
+                    <attribute id="SlotName" type="FixedString" value="Head"/>
+                    <attribute id="UUID" type="guid" value="afe97330-a8bc-4572-aa6b-f846b556b65b"/>
+                    <attribute id="VisualResource" type="guid" value="16c8acab-aa05-4b9f-873a-42d89f2af155"/>
                 </node>
 
 
