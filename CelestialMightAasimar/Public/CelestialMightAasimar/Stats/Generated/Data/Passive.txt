@@ -2,7 +2,7 @@ new entry "CelestialResistance"
 type "PassiveData"
 data "DisplayName" "hf4ec8b07gbb48g860ag940cg471cbb0c435a;1"
 data "Description" "h163a49eegcf6bgc3f9g2e3egeb269dc99438;1"
-data "Icon" "PassiveFeature_DivineAllegiance"
+data "Icon" "PassiveFeature_Aasimar_CelestialResistance"
 data "Properties" "ForceShowInCC;Highlighted"
 data "Boosts" "Resistance(Radiant,Resistant);Resistance(Necrotic,Resistant)"
 
