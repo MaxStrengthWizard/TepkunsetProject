@@ -13,7 +13,6 @@ data "StackId" "AASIMAR_WINGS_OWNER"
 data "Boosts" "UnlockSpell(Projectile_Fly_Aasimar);UnlockSpell(Shout_Aasimar_CelestialRevelation_Dismiss);UnlockInterrupt(Interrupt_CelestialRevelation_Radiant);UnlockInterrupt(Interrupt_CelestialRevelation_Radiant_Critical)"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "StatusEffect" "70e3142f-6fde-4718-815f-a419e6bfaa23"
-data "DynamicAnimationTag" "be59efb2-a126-4dc2-a69b-c4cfd0de2856"
 
 new entry "AASIMAR_RADIANCE_AURA"
 type "StatusData"
