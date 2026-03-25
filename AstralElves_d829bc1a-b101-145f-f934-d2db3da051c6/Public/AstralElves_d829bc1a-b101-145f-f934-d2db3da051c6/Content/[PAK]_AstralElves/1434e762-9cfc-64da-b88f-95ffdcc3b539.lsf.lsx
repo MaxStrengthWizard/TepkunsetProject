@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="7" revision="1" build="1" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="TextureBank">
+		<node id="TextureBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="1434e762-9cfc-64da-b88f-95ffdcc3b539" />
+					<attribute id="Name" type="LSString" value="AstralElfAtlas" />
+					<attribute id="SourceFile" type="LSString" value="Public/AstralElves_d829bc1a-b101-145f-f934-d2db3da051c6/Assets/Textures/Icons/AstralElfAtlas.dds" />
+					<attribute id="Template" type="FixedString" value="AstralElfAtlas" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="Width" type="int32" value="256" />
+					<attribute id="Height" type="int32" value="256" />
+					<attribute id="Depth" type="int32" value="1" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

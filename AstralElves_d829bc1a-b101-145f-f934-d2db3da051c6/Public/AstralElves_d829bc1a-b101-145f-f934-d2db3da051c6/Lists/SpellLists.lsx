@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="1"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Astral Fire"/>
+                    <attribute id="Spells" type="LSString" value="Target_DancingLights;Target_Light;Target_SacredFlame"/>
+                    <attribute id="UUID" type="guid" value="11cb0e13-23b8-4d1e-92b1-150d6e37caa3"/>
+                </node>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Astral Elf Racials"/>
+                    <attribute id="Spells" type="LSString" value="Target_StarlightStep;Shout_AstralKnowledge"/>
+                    <attribute id="UUID" type="guid" value="ffa78612-d6eb-45c5-94fb-26dcb754c7ac"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

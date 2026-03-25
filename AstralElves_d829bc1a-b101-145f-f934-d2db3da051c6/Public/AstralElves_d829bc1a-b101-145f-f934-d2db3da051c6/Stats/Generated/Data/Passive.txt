@@ -1,0 +1,8 @@
+new entry "Astral_KeenSenses"
+type "PassiveData"
+data "DisplayName" "hc7ae1f50g1739gcf07g18b2gfe4ff92fe2af;1"
+data "Description" "h1b8e6ac8g6582g06bfgf346geb9bad9502f5;1"
+data "Icon" "Action_Barbarian_MagicAwareness"
+data "Properties" "Highlighted;ForceShowInCC"
+data "Boosts" "ProficiencyBonus(Skill,Perception)"
+

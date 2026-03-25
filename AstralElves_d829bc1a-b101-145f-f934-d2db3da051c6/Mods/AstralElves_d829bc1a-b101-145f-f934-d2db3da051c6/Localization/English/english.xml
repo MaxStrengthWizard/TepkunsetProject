@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <content contentuid="h09c0dc77g488dg444cg222eg40764308fd3e" version="1">Astral Elf</content>
+  <content contentuid="h73bc6cb3g0ff9ga959g3f23g353d3fa0738f" version="1">Long ago, elves ventured from the Feywild to the Astral Plane to be closer to their gods. Life in the Silver Void has imbued their souls with a spark of divine light. That light manifests as a starry gleam in an astral elf's eyes.</content>
+  <content contentuid="h0296a328gfb9dg2660g4befgb943662b9548" version="1">Starlight Step Charges</content>
+  <content contentuid="h35d32439g99bcgd0e8gb2e7g2b168b39bcd3" version="1">You gain additional uses of &lt;LSTag Type="Spell" Tooltip="Target_StarlightStep"&gt;Starlight Step&lt;/LSTag&gt; at levels 4, 8, and 12.</content>
+  <content contentuid="hc7ae1f50g1739gcf07g18b2gfe4ff92fe2af" version="1">Keen Senses</content>
+  <content contentuid="h1b8e6ac8g6582g06bfgf346geb9bad9502f5" version="1">You have &lt;LSTag Tooltip="Proficiency"&gt;Proficiency&lt;/LSTag&gt; in the Perception skill.</content>
+  <content contentuid="h5cd770cag1665gfee9gaf5agb06b4c19d028" version="1">Starlight Step</content>
+  <content contentuid="h3da2f209gb7e3gbbe2g6224gb33d1c72c697" version="1">Magically teleport to an unoccupied space you can see within range.</content>
+  <content contentuid="hb2463c39gce2dg439bg09bbg75980a5ba6a8" version="1">Astral Elf</content>
+  <content contentuid="had769034g8d6eg3eedgc0f0g119fc956d134" version="1">Astral elves are elven denizens of the Astral Plane.</content>
+  <content contentuid="h055963afgd9cagb323g50e5gb82c5c44ee35" version="1">Astral Fire</content>
+  <content contentuid="h4129b3efg2f3dg6b8eg4f63g5b099252c877" version="1">You know one of the following cantrips.</content>
+  <content contentuid="h3038ad55g4225gffcbg79adg62237ad0c40f" version="3">Dream Visitor</content>
+  <content contentuid="hfeb56d6cgd243g0f08gb90bgf50a0816c06d" version="3">Dream Visitor</content>
+  <content contentuid="h3d82d959gc65bg2151g0198ge3f0b0c43740" version="1">Dream Visitor</content>
+</contentList>

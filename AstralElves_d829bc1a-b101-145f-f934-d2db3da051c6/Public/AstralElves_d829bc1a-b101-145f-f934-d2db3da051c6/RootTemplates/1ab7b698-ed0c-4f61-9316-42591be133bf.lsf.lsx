@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="7" revision="1" build="3" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="1ab7b698-ed0c-4f61-9316-42591be133bf" />
+					<attribute id="Name" type="LSString" value="Elves_Female_Astral_Daisy_Strong" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="04cfb697-0c5e-4f41-9a7a-1d024e507d7e" />
+					<attribute id="ReadinessFlags" type="uint32" value="511" />
+					<attribute id="Icon" type="FixedString" value="35d37e63-eaf8-ad97-2571-aac0b7056445-EQP_Daisy_(Icon_Elf_Female)" />
+					<attribute id="EquipmentRace" type="guid" value="47c0315c-7dc6-4862-b39b-8bf3a10f8b54" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="36da7635-a85d-dfa8-e2f0-06bd7b531ef8" />
+					<attribute id="Race" type="guid" value="18384dc9-da7d-4e4e-bd8a-30b7a24836d5" />
+					<attribute id="AnimationSetResourceID" type="FixedString" value="3d3afaf5-e090-000e-2f5c-312387d06e5f" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="d3116e58-c55a-4853-a700-bee996207397" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

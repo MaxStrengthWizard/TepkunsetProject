@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="7" revision="1" build="3" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="177ea891-c200-4a42-bf25-1d8a5385f083" />
+					<attribute id="Name" type="LSString" value="Elves_Male_Astral_Daisy" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="f0930afd-8be6-410e-bae3-b0253262f861" />
+					<attribute id="ReadinessFlags" type="uint32" value="511" />
+					<attribute id="Icon" type="FixedString" value="2ab62400-3c61-4188-68b0-5276d1b0001f-EQP_Daisy_(Icon_Elf_Male)" />
+					<attribute id="Stats" type="FixedString" value="HeroElfMale" />
+					<attribute id="Equipment" type="FixedString" value="EQP_Daisy" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="00b8334b-bcf9-507e-6343-8ce59950e76c" />
+					<attribute id="Race" type="guid" value="18384dc9-da7d-4e4e-bd8a-30b7a24836d5" />
+					<attribute id="AnimationSetResourceID" type="FixedString" value="d1200565-a3b5-31df-3cff-98bc759a7316" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="807af8f5-0183-42d9-8d40-6e93d5236cc2" />
+								</node>
+							</children>
+						</node>
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="6fe77279-1bba-5cc0-a5e0-34beabd2501d" />
+								</node>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="9817eece-ccb2-7f70-ce27-1e10bf08efa5" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="1"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="DefaultValue">
+                    <attribute id="Add" type="LSString" value="Target_DancingLights"/>
+                    <attribute id="Level" type="int32" value="1"/>
+                    <attribute id="SelectorId" type="LSString" value="AstralFire"/>
+                    <attribute id="TableUUID" type="guid" value="19524b33-e835-454e-aea6-c6086306e5c8"/>
+                    <attribute id="UUID" type="guid" value="0ac9a42e-df77-447f-a8f4-ae1b686edbdf"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

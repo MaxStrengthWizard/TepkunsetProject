@@ -1,0 +1,10 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_GLO_Tags_GameStartTagExclusionTag((TAG)BALDURIAN_f15e9b0d-676c-4f52-9abf-365cff89ef0f,(TAG)REALLY_ASTRALELF_fbb0000c-8ab7-4ab0-9c63-bc208da89343);
+KBSECTION
+
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "__Shared_Campaign"

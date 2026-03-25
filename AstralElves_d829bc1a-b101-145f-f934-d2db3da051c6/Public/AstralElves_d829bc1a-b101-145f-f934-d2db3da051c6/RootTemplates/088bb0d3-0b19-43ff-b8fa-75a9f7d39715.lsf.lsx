@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="7" revision="1" build="1" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="088bb0d3-0b19-43ff-b8fa-75a9f7d39715" />
+					<attribute id="Name" type="LSString" value="Elves_Male_Astral_Player_Strong" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="bfb31ea0-c6b3-4677-8c6e-662e089c18fb" />
+					<attribute id="ReadinessFlags" type="uint32" value="511" />
+					<attribute id="Icon" type="FixedString" value="c457d519-ddf4-a023-667a-38d2565511e3-_(Icon_Human_Male_Strong)" />
+					<attribute id="EquipmentRace" type="guid" value="e39505f7-f576-4e70-a99e-8e29cd381a11" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="e7cda90e-ae3f-1567-c156-ac803949a87a" />
+					<attribute id="PortraitVisualResourceID" type="FixedString" value="76172a38-007d-6213-d75c-820a8b67004a" />
+					<attribute id="GeneratePortrait" type="LSString" value="Icon_Human_Male_Strong" />
+					<attribute id="Race" type="guid" value="18384dc9-da7d-4e4e-bd8a-30b7a24836d5" />
+					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="d3116e58-c55a-4853-a700-bee996207397" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>
