@@ -11,7 +11,7 @@
                 </node>
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Astral Elf Racials"/>
-                    <attribute id="Spells" type="LSString" value="Target_StarlightStep;Shout_AstralKnowledge"/>
+                    <attribute id="Spells" type="LSString" value="Target_StarlightStep;Shout_AstralElf_Trance"/>
                     <attribute id="UUID" type="guid" value="ffa78612-d6eb-45c5-94fb-26dcb754c7ac"/>
                 </node>
             </children>

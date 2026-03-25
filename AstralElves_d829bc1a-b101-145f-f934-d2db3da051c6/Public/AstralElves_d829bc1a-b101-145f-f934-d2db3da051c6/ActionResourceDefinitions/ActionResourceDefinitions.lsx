@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <save>
-    <version major="4" minor="7" revision="1" build="1"/>
+    <version major="4" minor="8" revision="0" build="500"/>
     <region id="ActionResourceDefinitions">
         <node id="root">
             <children>
@@ -9,7 +9,7 @@
                     <attribute id="DisplayName" type="TranslatedString" handle="h0296a328gfb9dg2660g4befgb943662b9548" version="1"/>
                     <attribute id="MaxLevel" type="uint32" value="0"/>
                     <attribute id="Name" type="FixedString" value="StarlightStepCharges"/>
-                    <attribute id="ReplenishType" type="FixedString" value="ShortRest"/>
+                    <attribute id="ReplenishType" type="FixedString" value="Rest"/>
                     <attribute id="ShowOnActionResourcePanel" type="bool" value="true"/>
                     <attribute id="UUID" type="guid" value="6ac6fee2-7a12-4ef2-9752-3f11d877da89"/>
                 </node>

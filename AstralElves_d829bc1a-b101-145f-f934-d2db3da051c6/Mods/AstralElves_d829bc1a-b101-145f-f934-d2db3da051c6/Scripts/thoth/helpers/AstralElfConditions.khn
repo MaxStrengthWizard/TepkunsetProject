@@ -1,0 +1,11 @@
+local __util = require 'larian.util'
+
+function Tep_HasActiveAstralTrance(entity)
+    local entity = entity or context.Source
+    local result = HasStatus('ASTRAL_TRANCE_STRENGTH', entity) 
+	| HasStatus('ASTRAL_TRANCE_DEXTERITY', entity) 
+	| HasStatus('ASTRAL_TRANCE_INTELLIGENCE', entity) 
+	| HasStatus('ASTRAL_TRANCE_WISDOM', entity) 
+	| HasStatus('ASTRAL_TRANCE_CHARISMA', entity)
+    return ConditionResult(result.Result, {ConditionError("UnavailableUntilRest")}, {ConditionError("UnavailableUntilRest")})
+end

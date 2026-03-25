@@ -5,8 +5,7 @@
         <node id="root">
             <children>
                 <node id="Progression">
-                    <attribute id="AllowImprovement" type="bool" value="true"/>
-                    <attribute id="Boosts" type="LSString" value="ActionResource(StarlightStepCharges,1,0)"/>
+                    <attribute id="Boosts" type="LSString" value="ActionResource(StarlightStepCharges,2,0)"/>
                     <attribute id="Level" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value="Astral_KeenSenses"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
@@ -15,28 +14,32 @@
                     <attribute id="UUID" type="guid" value="98df8467-aa83-4562-aa2f-afc3b956e6a7"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(StarlightStepCharges,1,0)"/>
-                    <attribute id="Level" type="uint8" value="4"/>
+                    <attribute id="Level" type="uint8" value="5"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
                     <attribute id="TableUUID" type="guid" value="19524b33-e835-454e-aea6-c6086306e5c8"/>
                     <attribute id="UUID" type="guid" value="f931f8ad-0121-4c51-88b4-24c4c5a07668"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(StarlightStepCharges,1,0)"/>
-                    <attribute id="Level" type="uint8" value="8"/>
+                    <attribute id="Level" type="uint8" value="9"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
                     <attribute id="TableUUID" type="guid" value="19524b33-e835-454e-aea6-c6086306e5c8"/>
                     <attribute id="UUID" type="guid" value="c510da24-dade-4fc2-a4f1-196e653f95fd"/>
                 </node>
                 <node id="Progression">
-                    <attribute id="AllowImprovement" type="bool" value="true"/>
                     <attribute id="Boosts" type="LSString" value="ActionResource(StarlightStepCharges,1,0)"/>
-                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Level" type="uint8" value="13"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
                     <attribute id="TableUUID" type="guid" value="19524b33-e835-454e-aea6-c6086306e5c8"/>
                     <attribute id="UUID" type="guid" value="7c35f9c3-ab3a-40bf-8d7b-aaec3484367d"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Boosts" type="LSString" value="ActionResource(StarlightStepCharges,1,0)"/>
+                    <attribute id="Level" type="uint8" value="17"/>
+                    <attribute id="ProgressionType" type="uint8" value="2"/>
+                    <attribute id="TableUUID" type="guid" value="19524b33-e835-454e-aea6-c6086306e5c8"/>
+                    <attribute id="UUID" type="guid" value="93d46623-21ad-4a01-8a5e-414c74472408"/>
                 </node>
             </children>
         </node>
