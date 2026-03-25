@@ -10,7 +10,7 @@
                     <attribute id="Name" type="LSString" value="Aasimar"/>
                     <attribute id="PassivesAdded" type="LSString" value="CelestialResistance;Darkvision"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(a2882779-ac61-4cd8-995d-b342dd80b8ac)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(6037a7f0-8270-4567-9e3e-9c9dc933c183);AddSpells(857eb32b-75d3-40f5-89cb-220172cee426,,Charisma,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="5fed70bc-14c4-496f-a5c3-9bce229cfd6a"/>
                     <attribute id="UUID" type="guid" value="aafbb4b9-073a-4e88-8ef7-77ae7edb3285"/>
                 </node>
@@ -19,7 +19,7 @@
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Aasimar"/>
                     <attribute id="ProgressionType" type="uint8" value="2"/>
-                    <attribute id="Selectors" type="LSString" value="AddSpells(6037a7f0-8270-4567-9e3e-9c9dc933c183);AddSpells(857eb32b-75d3-40f5-89cb-220172cee426,,Charisma,,AlwaysPrepared)"/>
+                    <attribute id="Selectors" type="LSString" value="AddSpells(a2882779-ac61-4cd8-995d-b342dd80b8ac)"/>
                     <attribute id="TableUUID" type="guid" value="5fed70bc-14c4-496f-a5c3-9bce229cfd6a"/>
                     <attribute id="UUID" type="guid" value="d2a10e27-073b-49de-b2d8-8d000229d1a3"/>
                 </node>
