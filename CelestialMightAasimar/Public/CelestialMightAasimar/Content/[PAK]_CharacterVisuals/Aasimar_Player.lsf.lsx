@@ -277,6 +277,13 @@
 									<attribute id="Color" type="bool" value="False" />
 									<attribute id="Custom" type="bool" value="True" />
 								</node>
+								<node id="ScalarParameters">
+									<attribute id="Parameter" type="FixedString" value="IsTav" />
+									<attribute id="Value" type="float" value="1" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Color" type="bool" value="False" />
+									<attribute id="Custom" type="bool" value="True" />
+								</node>
 								<node id="Vector3Parameters">
 									<attribute id="Parameter" type="FixedString" value="Lips_Makeup_Color" />
 									<attribute id="Value" type="fvec3" value="0.32372832 0.05363743 0.10569564" />
@@ -639,6 +646,13 @@
 									<attribute id="Color" type="bool" value="False" />
 									<attribute id="Custom" type="bool" value="True" />
 								</node>
+								<node id="ScalarParameters">
+									<attribute id="Parameter" type="FixedString" value="IsTav" />
+									<attribute id="Value" type="float" value="1" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Color" type="bool" value="False" />
+									<attribute id="Custom" type="bool" value="True" />
+								</node>
 								<node id="Vector3Parameters">
 									<attribute id="Parameter" type="FixedString" value="Lips_Makeup_Color" />
 									<attribute id="Value" type="fvec3" value="0.32372832 0.05363743 0.10569564" />
@@ -982,6 +996,13 @@
 									<attribute id="Color" type="bool" value="False" />
 									<attribute id="Custom" type="bool" value="True" />
 								</node>
+								<node id="ScalarParameters">
+									<attribute id="Parameter" type="FixedString" value="IsTav" />
+									<attribute id="Value" type="float" value="1" />
+									<attribute id="Enabled" type="bool" value="True" />
+									<attribute id="Color" type="bool" value="False" />
+									<attribute id="Custom" type="bool" value="True" />
+								</node>
 								<node id="Vector3Parameters">
 									<attribute id="Parameter" type="FixedString" value="AddedColor" />
 									<attribute id="Value" type="fvec3" value="0.025700033 0 0" />
@@ -1295,6 +1316,13 @@
 									<attribute id="Parameter" type="FixedString" value="ColorMultiplier" />
 									<attribute id="Value" type="float" value="0.7" />
 									<attribute id="Enabled" type="bool" value="False" />
+									<attribute id="Color" type="bool" value="False" />
+									<attribute id="Custom" type="bool" value="True" />
+								</node>
+								<node id="ScalarParameters">
+									<attribute id="Parameter" type="FixedString" value="IsTav" />
+									<attribute id="Value" type="float" value="1" />
+									<attribute id="Enabled" type="bool" value="True" />
 									<attribute id="Color" type="bool" value="False" />
 									<attribute id="Custom" type="bool" value="True" />
 								</node>
