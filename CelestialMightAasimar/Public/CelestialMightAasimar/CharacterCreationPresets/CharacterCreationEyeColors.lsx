@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="CharacterCreationEyeColors">
+    <node id="root">
+      <children>
+        <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h9cb154c1geffcg44a5gccddg37675faa4728" version="1" />
+                    <attribute id="MaterialPresetUUID" type="guid" value="fb8c45f9-f560-483f-168e-4ef8b245ba7b" />
+                    <attribute id="Name" type="FixedString" value="EYES_Celestial_Blue_C" />
+                    <attribute id="UIColor" type="LSString" value="#FF75BDCA" />
+                    <attribute id="UUID" type="guid" value="c3516216-e081-44ff-8492-fab0b6619067" />
+                </node>
+        <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h2120ae02ge2dbg9198gb60agec80a1ac1997" version="1" />
+                    <attribute id="MaterialPresetUUID" type="guid" value="8aaccf14-6758-3874-6209-709a854ca9c5" />
+                    <attribute id="Name" type="FixedString" value="EYES_Celestial_Green_A" />
+                    <attribute id="UIColor" type="LSString" value="#FFA9DF6D" />
+                    <attribute id="UUID" type="guid" value="aab73999-19ae-44a1-a044-569b566db5b4" />
+                </node>
+        <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h187fa95bga238g02bcga9ddg45a9337e1b2a" version="1" />
+                    <attribute id="MaterialPresetUUID" type="guid" value="44d17d90-d108-fa6b-e9a1-15fe0adeabf0" />
+                    <attribute id="Name" type="FixedString" value="EYES_Celestial_Purple_A" />
+                    <attribute id="UIColor" type="LSString" value="#FF9981F6" />
+                    <attribute id="UUID" type="guid" value="8ecd1b8b-6b09-4b37-a9d8-658b6c7bd5bc" />
+                </node>
+        <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h92c433adg6998g5febg3877g9dda36371bf7" version="1" />
+                    <attribute id="MaterialPresetUUID" type="guid" value="ac7db129-57fe-d4e1-b97f-b2aea369cb6e" />
+                    <attribute id="Name" type="FixedString" value="EYES_Celestial_Red_A" />
+                    <attribute id="UIColor" type="LSString" value="#FFE93535" />
+                    <attribute id="UUID" type="guid" value="76fa0622-00e4-4a16-974b-ca1884588451" />
+                </node>
+        <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h36b2de45gb39fgfbc5ge9a5gb3b6dbd7780d" version="1" />
+                    <attribute id="MaterialPresetUUID" type="guid" value="5ac52a60-767e-0982-366b-01d36f9aa681" />
+                    <attribute id="Name" type="FixedString" value="EYES_Celestial_White_A" />
+                    <attribute id="UIColor" type="LSString" value="#FFFFFFFF" />
+                    <attribute id="UUID" type="guid" value="88525899-07f4-407b-be11-f7a49c8cd1c7" />
+                </node>
+        <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h6795feacg57cbg5bc2g60ddgc9517cae0a2f" version="1" />
+                    <attribute id="MaterialPresetUUID" type="guid" value="7e9ba89f-2c5d-5a1c-9c49-aa01c14cbe59" />
+                    <attribute id="Name" type="FixedString" value="EYES_Celestial_Yellow_A" />
+                    <attribute id="UIColor" type="LSString" value="#FFCA7B00" />
+                    <attribute id="UUID" type="guid" value="41d41089-ea6c-4242-bee2-7172cad9e48e" />
+                </node>
+        <node id="CharacterCreationEyeColor">
+                    <attribute id="DisplayName" type="TranslatedString" handle="hc7d219c1g1d77ga01ag9e1dg62e2b565a85a" version="1" />
+                    <attribute id="MaterialPresetUUID" type="guid" value="3a967616-ca59-a353-554a-bc31910a4c15" />
+                    <attribute id="Name" type="FixedString" value="EYES_Celestial_Yellow_B" />
+                    <attribute id="UIColor" type="LSString" value="#FFE0BF4E" />
+                    <attribute id="UUID" type="guid" value="f35c0598-70dd-4a33-812a-81c1918bcd34" />
+                </node>
+      </children>
+    </node>
+  </region>
+</save>

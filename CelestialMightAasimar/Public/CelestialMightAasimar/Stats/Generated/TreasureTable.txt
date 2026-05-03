@@ -3,4 +3,4 @@ new treasuretable "TEP_AAS_Wings_Pack_TT"
 new subtable "1,1"
 object category "I_TEP_AAS_Wings_Gold",1,0,0,0,0,0,0,0
 new subtable "1,1"
-object category "I_TEP_AAS_Wings_Silver",1,0,0,0,0,0,0,0
+object category "I_TEP_AAS_Wings_Shadow",1,0,0,0,0,0,0,0

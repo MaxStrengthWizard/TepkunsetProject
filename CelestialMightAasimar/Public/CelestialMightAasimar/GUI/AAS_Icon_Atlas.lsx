@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="IconUVList">
+        <node id="root">
+            <children>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Aasimar_Revelation"/>
+                    <attribute id="U1" type="float" value="0.001953125"/>
+                    <attribute id="U2" type="float" value="0.24804688"/>
+                    <attribute id="V1" type="float" value="0.00390625"/>
+                    <attribute id="V2" type="float" value="0.49609375"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Action_Aasimar_HealingHands"/>
+                    <attribute id="U1" type="float" value="0.25195312"/>
+                    <attribute id="U2" type="float" value="0.49804688"/>
+                    <attribute id="V1" type="float" value="0.00390625"/>
+                    <attribute id="V2" type="float" value="0.49609375"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Action_Aasimar_HeavenlyWings"/>
+                    <attribute id="U1" type="float" value="0.50195312"/>
+                    <attribute id="U2" type="float" value="0.74804688"/>
+                    <attribute id="V1" type="float" value="0.00390625"/>
+                    <attribute id="V2" type="float" value="0.49609375"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Action_Aasimar_HeavenlyWings_Fly"/>
+                    <attribute id="U1" type="float" value="0.75195312"/>
+                    <attribute id="U2" type="float" value="0.99804688"/>
+                    <attribute id="V1" type="float" value="0.00390625"/>
+                    <attribute id="V2" type="float" value="0.49609375"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Action_Aasimar_InnerRadiance"/>
+                    <attribute id="U1" type="float" value="0.001953125"/>
+                    <attribute id="U2" type="float" value="0.24804688"/>
+                    <attribute id="V1" type="float" value="0.50390625"/>
+                    <attribute id="V2" type="float" value="0.99609375"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Action_Aasimar_NecroticShroud"/>
+                    <attribute id="U1" type="float" value="0.25195312"/>
+                    <attribute id="U2" type="float" value="0.49804688"/>
+                    <attribute id="V1" type="float" value="0.50390625"/>
+                    <attribute id="V2" type="float" value="0.99609375"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Action_CelestialRevelation_Dismiss"/>
+                    <attribute id="U1" type="float" value="0.50195312"/>
+                    <attribute id="U2" type="float" value="0.74804688"/>
+                    <attribute id="V1" type="float" value="0.50390625"/>
+                    <attribute id="V2" type="float" value="0.99609375"/>
+                </node>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="PassiveFeature_Aasimar_CelestialResistance"/>
+                    <attribute id="U1" type="float" value="0.75195312"/>
+                    <attribute id="U2" type="float" value="0.99804688"/>
+                    <attribute id="V1" type="float" value="0.50390625"/>
+                    <attribute id="V2" type="float" value="0.99609375"/>
+                </node>
+            </children>
+        </node>
+    </region>
+    <region id="TextureAtlasInfo">
+        <node id="root">
+            <children>
+                <node id="TextureAtlasIconSize">
+                    <attribute id="Height" type="int32" value="64"/>
+                    <attribute id="Width" type="int32" value="64"/>
+                </node>
+                <node id="TextureAtlasPath">
+                    <attribute id="Path" type="string" value="Assets/Textures/Icons/AAS_Icon_Atlas.dds"/>
+                    <attribute id="UUID" type="FixedString" value="afb9337c-3c62-dc97-e55d-23b1271cc701"/>
+                </node>
+                <node id="TextureAtlasTextureSize">
+                    <attribute id="Height" type="int32" value="128"/>
+                    <attribute id="Width" type="int32" value="256"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

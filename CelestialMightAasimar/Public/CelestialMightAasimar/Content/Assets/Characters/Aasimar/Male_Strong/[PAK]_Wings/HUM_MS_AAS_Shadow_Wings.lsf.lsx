@@ -7,9 +7,9 @@
 				<node id="Resource">
 					<attribute id="AttachBone" type="FixedString" value="" />
 					<attribute id="AttachmentSkeletonResource" type="FixedString" value="" />
-					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="86c2af56-8ea8-4270-aed8-4b07a7a905be" />
-					<attribute id="BoundsMax" type="fvec3" value="2.174573 2.591218 0.9924628" />
-					<attribute id="BoundsMin" type="fvec3" value="-2.174573 1.12594 0.06045844" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
+					<attribute id="BoundsMax" type="fvec3" value="1.8734465 2.7475152 1.6746883" />
+					<attribute id="BoundsMin" type="fvec3" value="-1.8734477 0.33228087 0.1080196" />
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="HairType" type="uint8" value="0" />
@@ -19,7 +19,7 @@
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
 					<attribute id="RemapperSlotId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
-					<attribute id="SkeletonResource" type="FixedString" value="3ab16354-81a3-a5af-8b72-e7f3011deb7b" />
+					<attribute id="SkeletonResource" type="FixedString" value="ec6db21a-5772-8e78-a2c9-67022a323760" />
 					<attribute id="SkeletonSlot" type="FixedString" value="Wings" />
 					<attribute id="Slot" type="FixedString" value="Unassigned" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
@@ -29,10 +29,7 @@
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209032" />
 					<children>
 						<node id="AnimationWaterfall">
-							<attribute id="Object" type="FixedString" value="941fa8ff-d19c-85ee-0ca0-b0aa1daf1550" />
-						</node>
-						<node id="AnimationWaterfall">
-							<attribute id="Object" type="FixedString" value="17b85ba0-f4b7-abd3-4ed5-307d71a55836" />
+							<attribute id="Object" type="FixedString" value="421b98a5-a884-c3d5-addd-d6d798962479" />
 						</node>
 						<node id="Base" />
 						<node id="ClothProxyMapping" />
@@ -40,11 +37,6 @@
 							<attribute id="LOD" type="uint8" value="0" />
 							<attribute id="MaterialID" type="FixedString" value="6ad9157d-2b05-ba95-73a6-2137f44043d4" />
 							<attribute id="ObjectID" type="FixedString" value="HUM_MS_Wings.HUM_FS_Wings_Mesh.0" />
-						</node>
-						<node id="Objects">
-							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="6ad9157d-2b05-ba95-73a6-2137f44043d4" />
-							<attribute id="ObjectID" type="FixedString" value="HUM_MS_Wings.HUM_FS_Wings_Attachment_Mesh.1" />
 						</node>
 					</children>
 				</node>

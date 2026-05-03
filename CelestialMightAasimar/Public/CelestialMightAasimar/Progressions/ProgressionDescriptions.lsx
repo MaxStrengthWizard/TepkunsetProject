@@ -1,17 +1,17 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <save>
-    <version major="4" minor="8" revision="0" build="500"/>
-    <region id="ProgressionDescriptions">
-        <node id="root">
-            <children>
-                <node id="ProgressionDescription">
-                    <attribute id="Description" type="TranslatedString" handle="hc6a27b52g65bcg6c92geb9fg912e998fd18e" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="h8e30e5f4g5bafgfa50g4ec8g50d88c930b29" version="1"/>
-                    <attribute id="ProgressionTableId" type="guid" value="5fed70bc-14c4-496f-a5c3-9bce229cfd6a"/>
-                    <attribute id="Type" type="FixedString" value="Aasimar"/>
-                    <attribute id="UUID" type="guid" value="7d295f76-b529-49a1-9887-a3f6047fc078"/>
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="ProgressionDescriptions">
+    <node id="root">
+      <children>
+        <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hc6a27b52g65bcg6c92geb9fg912e998fd18e" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="h8e30e5f4g5bafgfa50g4ec8g50d88c930b29" version="1" />
+                    <attribute id="ProgressionTableId" type="guid" value="5fed70bc-14c4-496f-a5c3-9bce229cfd6a" />
+                    <attribute id="Type" type="FixedString" value="Aasimar" />
+                    <attribute id="UUID" type="guid" value="7d295f76-b529-49a1-9887-a3f6047fc078" />
                 </node>
-            </children>
-        </node>
-    </region>
+      </children>
+    </node>
+  </region>
 </save>

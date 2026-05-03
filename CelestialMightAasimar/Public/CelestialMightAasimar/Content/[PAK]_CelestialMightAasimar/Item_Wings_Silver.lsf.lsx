@@ -136,16 +136,16 @@
 					<attribute id="Template" type="FixedString" value="Generated/Public/CelestialMightAasimar/Wings/HUM_MS_AAS_Wings.Dummy_Root.0" />
 					<attribute id="SupportsVertexColorMask" type="bool" value="False" />
 					<attribute id="NeedsSkeletonRemap" type="bool" value="False" />
-					<attribute id="SkeletonResource" type="FixedString" value="3ab16354-81a3-a5af-8b72-e7f3011deb7b" />
+					<attribute id="SkeletonResource" type="FixedString" value="ec6db21a-5772-8e78-a2c9-67022a323760" />
 					<attribute id="SoftbodyResourceID" type="FixedString" value="" />
 					<attribute id="HairPresetResourceId" type="FixedString" value="" />
 					<attribute id="ScalpMaterialId" type="FixedString" value="" />
 					<attribute id="SkeletonSlot" type="FixedString" value="Wings" />
-					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="86c2af56-8ea8-4270-aed8-4b07a7a905be" />
+					<attribute id="BlueprintInstanceResourceID" type="FixedString" value="" />
 					<attribute id="MaterialType" type="uint8" value="0" />
 					<attribute id="HairType" type="uint8" value="0" />
-					<attribute id="BoundsMin" type="fvec3" value="0 0 0" />
-					<attribute id="BoundsMax" type="fvec3" value="0 0 0" />
+					<attribute id="BoundsMax" type="fvec3" value="1.8734465 2.7475152 1.6746883" />
+					<attribute id="BoundsMin" type="fvec3" value="-1.8734477 0.33228087 0.1080196" />
 					<attribute id="ClothColliderResourceID" type="FixedString" value="" />
 					<children>
 						<node id="Objects">
@@ -153,16 +153,8 @@
 							<attribute id="MaterialID" type="FixedString" value="6e016e0a-cf9c-9cb5-68d0-bfe76407d9b1" />
 							<attribute id="LOD" type="uint8" value="0" />
 						</node>
-						<node id="Objects">
-							<attribute id="ObjectID" type="FixedString" value="HUM_MS_Wings.HUM_FS_Wings_Attachment_Mesh.1" />
-							<attribute id="MaterialID" type="FixedString" value="6e016e0a-cf9c-9cb5-68d0-bfe76407d9b1" />
-							<attribute id="LOD" type="uint8" value="0" />
-						</node>
 						<node id="AnimationWaterfall">
-							<attribute id="Object" type="FixedString" value="941fa8ff-d19c-85ee-0ca0-b0aa1daf1550" />
-						</node>
-						<node id="AnimationWaterfall">
-							<attribute id="Object" type="FixedString" value="17b85ba0-f4b7-abd3-4ed5-307d71a55836" />
+							<attribute id="Object" type="FixedString" value="421b98a5-a884-c3d5-addd-d6d798962479" />
 						</node>
 						<node id="ClothProxyMapping" />
 						<node id="Base" />

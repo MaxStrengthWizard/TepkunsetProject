@@ -10,19 +10,9 @@
 							<attribute id="MapKey" type="FixedString" value="Assets/CC/icons_races/Aasimar.png" />
 							<children>
 								<node id="entries">
-									<attribute id="h" type="int16" value="196" />
-									<attribute id="mipcount" type="int8" value="8" />
-									<attribute id="w" type="int16" value="196" />
-								</node>
-							</children>
-						</node>
-						<node id="Object">
-							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Aasimar_Radiance.png" />
-							<children>
-								<node id="entries">
-									<attribute id="h" type="int16" value="380" />
+									<attribute id="h" type="int16" value="300" />
 									<attribute id="mipcount" type="int8" value="9" />
-									<attribute id="w" type="int16" value="380" />
+									<attribute id="w" type="int16" value="300" />
 								</node>
 							</children>
 						</node>
@@ -30,39 +20,79 @@
 							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Aasimar_Revelation.png" />
 							<children>
 								<node id="entries">
-									<attribute id="h" type="int16" value="380" />
-									<attribute id="mipcount" type="int8" value="9" />
-									<attribute id="w" type="int16" value="380" />
+									<attribute id="h" type="int16" value="144" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="144" />
 								</node>
 							</children>
 						</node>
 						<node id="Object">
-							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Aasimar_Shroud.png" />
+							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Action_Aasimar_HealingHands.png" />
 							<children>
 								<node id="entries">
-									<attribute id="h" type="int16" value="380" />
-									<attribute id="mipcount" type="int8" value="9" />
-									<attribute id="w" type="int16" value="380" />
+									<attribute id="h" type="int16" value="144" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="144" />
 								</node>
 							</children>
 						</node>
 						<node id="Object">
-							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Aasimar_Wings.png" />
+							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Action_Aasimar_HeavenlyWings.png" />
 							<children>
 								<node id="entries">
-									<attribute id="h" type="int16" value="380" />
-									<attribute id="mipcount" type="int8" value="9" />
-									<attribute id="w" type="int16" value="380" />
+									<attribute id="h" type="int16" value="144" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="144" />
 								</node>
 							</children>
 						</node>
 						<node id="Object">
-							<attribute id="MapKey" type="FixedString" value="Assets/Tooltips/Icons/Aasimar_Radiance.png" />
+							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Action_Aasimar_HeavenlyWings_Fly.png" />
 							<children>
 								<node id="entries">
-									<attribute id="h" type="int16" value="380" />
-									<attribute id="mipcount" type="int8" value="9" />
-									<attribute id="w" type="int16" value="380" />
+									<attribute id="h" type="int16" value="144" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="144" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Action_Aasimar_InnerRadiance.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="144" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="144" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Action_Aasimar_NecroticShroud.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="144" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="144" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/Action_CelestialRevelation_Dismiss.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="144" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="144" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/ControllerUIIcons/skills_png/PassiveFeature_Aasimar_CelestialResistance.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="144" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="144" />
 								</node>
 							</children>
 						</node>
@@ -77,21 +107,71 @@
 							</children>
 						</node>
 						<node id="Object">
-							<attribute id="MapKey" type="FixedString" value="Assets/Tooltips/Icons/Aasimar_Shroud.png" />
+							<attribute id="MapKey" type="FixedString" value="Assets/Tooltips/Icons/Action_Aasimar_HealingHands.png" />
 							<children>
 								<node id="entries">
 									<attribute id="h" type="int16" value="380" />
-									<attribute id="mipcount" type="int8" value="9" />
+									<attribute id="mipcount" type="int8" value="1" />
 									<attribute id="w" type="int16" value="380" />
 								</node>
 							</children>
 						</node>
 						<node id="Object">
-							<attribute id="MapKey" type="FixedString" value="Assets/Tooltips/Icons/Aasimar_Wings.png" />
+							<attribute id="MapKey" type="FixedString" value="Assets/Tooltips/Icons/Action_Aasimar_HeavenlyWings.png" />
 							<children>
 								<node id="entries">
 									<attribute id="h" type="int16" value="380" />
-									<attribute id="mipcount" type="int8" value="9" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="380" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/Tooltips/Icons/Action_Aasimar_HeavenlyWings_Fly.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="380" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="380" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/Tooltips/Icons/Action_Aasimar_InnerRadiance.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="380" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="380" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/Tooltips/Icons/Action_Aasimar_NecroticShroud.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="380" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="380" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/Tooltips/Icons/Action_CelestialRevelation_Dismiss.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="380" />
+									<attribute id="mipcount" type="int8" value="1" />
+									<attribute id="w" type="int16" value="380" />
+								</node>
+							</children>
+						</node>
+						<node id="Object">
+							<attribute id="MapKey" type="FixedString" value="Assets/Tooltips/Icons/PassiveFeature_Aasimar_CelestialResistance.png" />
+							<children>
+								<node id="entries">
+									<attribute id="h" type="int16" value="380" />
+									<attribute id="mipcount" type="int8" value="1" />
 									<attribute id="w" type="int16" value="380" />
 								</node>
 							</children>
