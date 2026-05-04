@@ -3,3 +3,10 @@ type "Object"
 using "OBJ_Backpack"
 data "RootTemplate" "b0d44c52-b666-45c3-9366-59eab74c7950"
 
+new entry "OBJ_BloodPotion_Aasimar"
+type "Object"
+using "_Potion"
+data "RootTemplate" "9cf35fbe-4759-4885-b324-9d9d9ba1e285"
+data "Rarity" "Rare"
+data "UseConditions" "not IsSummonWithoutMouth()"
+

@@ -344,7 +344,7 @@
 										<node id="Object" key="MapKey">
 											<attribute id="MapKey" type="FixedString" value="06Eyes" />
 											<attribute id="ForcePresetValues" type="bool" value="True" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="83a18b44-0bc5-fca1-8d91-f24731d12ce9" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="fb8c45f9-f560-483f-168e-4ef8b245ba7b" />
 											<attribute id="GroupName" type="FixedString" value="06Eyes" />
 										</node>
 										<node id="Object" key="MapKey">
@@ -713,7 +713,7 @@
 										<node id="Object" key="MapKey">
 											<attribute id="MapKey" type="FixedString" value="06Eyes" />
 											<attribute id="ForcePresetValues" type="bool" value="True" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="83a18b44-0bc5-fca1-8d91-f24731d12ce9" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="fb8c45f9-f560-483f-168e-4ef8b245ba7b" />
 											<attribute id="GroupName" type="FixedString" value="06Eyes" />
 										</node>
 										<node id="Object" key="MapKey">
@@ -1035,7 +1035,7 @@
 										<node id="Object" key="MapKey">
 											<attribute id="MapKey" type="FixedString" value="06Eyes" />
 											<attribute id="ForcePresetValues" type="bool" value="True" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="83a18b44-0bc5-fca1-8d91-f24731d12ce9" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="fb8c45f9-f560-483f-168e-4ef8b245ba7b" />
 											<attribute id="GroupName" type="FixedString" value="06Eyes" />
 										</node>
 										<node id="Object" key="MapKey">
@@ -1344,7 +1344,7 @@
 										<node id="Object" key="MapKey">
 											<attribute id="MapKey" type="FixedString" value="06Eyes" />
 											<attribute id="ForcePresetValues" type="bool" value="True" />
-											<attribute id="MaterialPresetResource" type="FixedString" value="83a18b44-0bc5-fca1-8d91-f24731d12ce9" />
+											<attribute id="MaterialPresetResource" type="FixedString" value="fb8c45f9-f560-483f-168e-4ef8b245ba7b" />
 											<attribute id="GroupName" type="FixedString" value="06Eyes" />
 										</node>
 										<node id="Object" key="MapKey">

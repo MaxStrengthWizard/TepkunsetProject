@@ -1,0 +1,11 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_GLO_BloodElixirs_RacialElixirTemplates((TAG)REALLY_AASIMAR_2fddf7dd-f79b-4998-882c-d7257badbfe6, (ITEMROOT)CONS_Elixir_Blood_Aasimar_9cf35fbe-4759-4885-b324-9d9d9ba1e285, "");
+
+KBSECTION
+
+EXITSECTION
+
+ENDEXITSECTION
+ParentTargetEdge "Start"
