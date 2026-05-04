@@ -8,7 +8,7 @@
                     <attribute id="Boosts" type="LSString" value="ActionResource(Movement,9,0)" />
                     <attribute id="Level" type="uint8" value="1" />
                     <attribute id="Name" type="LSString" value="Aasimar" />
-                    <attribute id="PassivesAdded" type="LSString" value="CelestialResistance;Darkvision;DUMMY_BodyTattoo" />
+                    <attribute id="PassivesAdded" type="LSString" value="CelestialResistance;Darkvision" />
                     <attribute id="ProgressionType" type="uint8" value="2" />
                     <attribute id="Selectors" type="LSString" value="AddSpells(6037a7f0-8270-4567-9e3e-9c9dc933c183);AddSpells(857eb32b-75d3-40f5-89cb-220172cee426,,Charisma,,AlwaysPrepared)" />
                     <attribute id="TableUUID" type="guid" value="5fed70bc-14c4-496f-a5c3-9bce229cfd6a" />
