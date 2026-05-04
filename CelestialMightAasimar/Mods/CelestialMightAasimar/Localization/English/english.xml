@@ -378,22 +378,7 @@
   <content contentuid="hc7d219c1g1d77ga01ag9e1dg62e2b565a85a" version="1">Celestial Yellow</content>
   <content contentuid="h464126033c0e46dd83a9af740cee10feafcd" version="1">One of Blood Vendor Araj Obladra's elixirs, distilled from a specific sanguine quality, and with properties aligned to an equally specific race.</content>
   <content contentuid="h2494e7df216b42f59d5261e1fd7c8977g422" version="1">Elixir of Aasimar Heritage</content>
-  <content contentuid="h1b44f9cbcdd644afa12d5eee6d5f912eg9c2" version="1">The faintest echo of celestial heritage in the aasimar blood grants you a &lt;LSTag Type="Spell" Tooltip="Projectile_Fly_Aasimar"&gt;flight&lt;/LSTag&gt; speed until your next &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
+  <content contentuid="h1b44f9cbcdd644afa12d5eee6d5f912eg9c2" version="1">The faintest echo of celestial heritage in the aasimar blood grants you &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant and Necrotic damage and a &lt;LSTag Type="Spell" Tooltip="Projectile_Fly_Aasimar"&gt;fly&lt;/LSTag&gt; speed until your next &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
   <content contentuid="hcb1e495263f94e5c9460023a00fb84b0b3a1" version="1">Aasimar Heritage</content>
-  <content contentuid="h697e5aa7eae4456c804cb51d8d43fb358g8e" version="1">A faint echo of celestial heritage in the aasimar blood grants the affected entity a &lt;LSTag Type="Spell" Tooltip="Projectile_Fly_Aasimar"&gt;flight&lt;/LSTag&gt; speed until its next &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  <content contentuid="h697e5aa7eae4456c804cb51d8d43fb358g8e" version="1">A faint echo of celestial heritage in the aasimar blood grants the affected entity &lt;LSTag Tooltip="Resistant"&gt;Resistance&lt;/LSTag&gt; to Radiant and Necrotic damage and a &lt;LSTag Type="Spell" Tooltip="Projectile_Fly_Aasimar"&gt;fly&lt;/LSTag&gt; speed until its next &lt;LSTag Tooltip="LongRest"&gt;Long Rest&lt;/LSTag&gt;.</content>
 </contentList>

@@ -113,6 +113,6 @@ data "Description" "h697e5aa7eae4456c804cb51d8d43fb358g8e;1"
 data "Icon" "statIcons_BloodPotion"
 data "StackId" "MOO_BLOODPOTION_AASIMAR"
 data "StackType" "Overwrite"
-data "Boosts" "UnlockSpell(Projectile_Fly_Aasimar)"
+data "Boosts" "Resistance(Radiant,Resistant);Resistance(Necrotic,Resistant);UnlockSpell(Projectile_Fly_Aasimar)"
 data "ApplyEffect" "bd3c1d13-92f4-40dc-91a0-a8450ec2be75"
 

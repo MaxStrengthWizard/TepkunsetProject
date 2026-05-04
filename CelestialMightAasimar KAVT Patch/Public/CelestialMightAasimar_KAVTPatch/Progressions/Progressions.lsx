@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="8" revision="0" build="500"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <node id="Progression">
+                    <attribute id="MergedInto" type="guid" value="aafbb4b9-073a-4e88-8ef7-77ae7edb3285"/>
+                    <attribute id="Level" type="uint8" value="1" />
+                    <attribute id="Name" type="LSString" value="Aasimar" />
+                    <attribute id="PassivesAdded" type="LSString" value="DUMMY_BodyTattoo" />
+                    <attribute id="ProgressionType" type="uint8" value="2" />
+                    <attribute id="TableUUID" type="guid" value="5fed70bc-14c4-496f-a5c3-9bce229cfd6a" />
+                    <attribute id="UUID" type="guid" value="84e42cc2-72a9-470c-9400-26cd2f506b8b" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
