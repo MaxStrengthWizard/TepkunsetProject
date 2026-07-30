@@ -5,6 +5,7 @@ using "Shout_AstralKnowledge"
 data "ContainerSpells" "Shout_AstralTrance_Strength;Shout_AstralTrance_Dexterity;Shout_AstralTrance_Intelligence;Shout_AstralTrance_Wisdom;Shout_AstralTrance_Charisma"
 data "DisplayName" "h15da1b7fc0474ea29be801590763c8462f9b;1"
 data "TooltipStatusApply" "ApplyStatus(ASTRAL_TRANCE,100,-1)"
+data "SpellAnimation" "03496c4a-49e0-4132-b585-3e5ecd1ad8e5,,;,,;4156d364-d2c0-4a01-908c-3552f78f434d,,;6f0a29b6-0ae8-4ebf-a1e4-8069c4a6ad16,,;a9682ef9-5d9e-4ac0-8144-2c7fe6eb868c,,;,,;32fb4d91-7fde-4b05-9144-ea87b9a4284a,,;,,;,,"
 data "RequirementConditions" "not Tep_HasActiveAstralTrance()"
 
 new entry "Shout_AstralTrance_Strength"
